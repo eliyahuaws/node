@@ -5,7 +5,7 @@ var TAG = path.basename(__filename+" ");
 
 var mysql = require('mysql');
 
-var isTestEnvirment = false;
+var isTestEnvirment = true;
 
 
 

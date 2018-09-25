@@ -1,11 +1,14 @@
 var createDataBase = require('./GameCreateDataBases');
 
+var config = require('./config/config.json');
+
 // var deleteDataBase = require('./deletedatabase');
 
+var os = require('os');
+console.log(os.hostname());
+console.log(config.port);
 
-
-
-createDataBase.createDataBase();
+//createDataBase.createDataBase();
 
 
 
