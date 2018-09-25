@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 
-var isTestEnvirment = true;
+var isTestEnvirment = false;
 
 
 
