@@ -1,4 +1,5 @@
 {
+	"test_envirment":"liors-MacBook-Pro.local",
      "port": 8080,
      "static_variable": "static"
 }

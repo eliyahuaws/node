@@ -1,8 +1,10 @@
 var config = require('./config.json');
 var os = require('os');
 
-
-if(os.hostname() = config.test_envirment_name = ){
+var name = config.test_envirment;
+var name1 = os.hostname();
+console.log(name +" " + name1);
+if(name.toString()== name1.toString()){
 console.log("test");
 
 }
