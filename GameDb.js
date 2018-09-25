@@ -1,29 +1,30 @@
+var path = require("path");
+var TAG = path.basename(__filename+" ");
+var logger = require('./logger/GameLogger');
 var mysql = require('mysql');
-
-var isTestEnvirment = true;
-
+var config = require('./config/config.js');
 
 
-if(isTestEnvirment)
+if(config.getEnvironment())
 {
-var connection = mysql.createConnection({
-	host: "localhost",
-	user: "root",
-	password: "",
-	socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock',
-	database: 'mydb'
-});
+	logger.log(TAG,"get TEST database connection");
+	var connection = mysql.createConnection({
+		host: config.getMysqlHost(),
+		user: config.getMysqlUser(),
+		password: config.getMysqlPassword(),
+		socketPath: config.getMysqlSocket(),
+		database: config.getMysqlDatabaseName()
+	});
 }
 else
 {
-
+		logger.log(TAG,"get PROD database connection");
 	var connection = mysql.createConnection({
-	host: "localhost",
-	user: "root",
-	password: "eliyahu",
-		database: 'mydb'
-});
-
+		host: config.getMysqlHost(),
+		user: config.getMysqlUser(),
+		password: config.getMysqlPassword(),
+		database: config.getMysqlDatabaseName()
+	});
 }
 
 

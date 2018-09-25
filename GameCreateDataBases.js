@@ -1,57 +1,50 @@
 
 
 var path = require("path");
-var TAG = path.basename(__filename+" ");
-
+var TAG = path.basename(__filename);
 var mysql = require('mysql');
+var config = require('./config/config.js');
+var logger = require('./logger/GameLogger');
 
-var isTestEnvirment = true;
-
-
-
-if(isTestEnvirment)
+if(config.getEnvironment())
 {
-var con = mysql.createConnection({
-	host: "localhost",
-	user: "root",
-	password: "",
-	socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
-});
+	var con = mysql.createConnection({
+		host: config.getMysqlHost(),
+		user: config.getMysqlUser(),
+		password: config.getMysqlPassword(),
+		socketPath: config.getMysqlSocket(),
+	});
 }
 else
 {
-
 	var con = mysql.createConnection({
-	host: "localhost",
-	user: "root",
-	password: "eliyahu",
-});
-
+		host: config.getMysqlHost(),
+		user: config.getMysqlUser(),
+		password: config.getMysqlPassword(),
+	});
 }
 
-var databaseName = "mydb";
-
+var databaseName = config.getMysqlDatabaseName();
 
 module.exports.createDataBase =  function () {
 	con.connect(function(err) {
 		if (err)
 		{
-				console.log(TAG + err);
-		
+			logger.log(TAG , err);
 		}
 		else
 		{
-			console.log(TAG +"DataBase Connect");
+			logger.log(TAG ,"DataBase Connect");
 			con.query("CREATE DATABASE "+databaseName, function (err, result) {
 				if (err)
 				{
-					console.log(TAG  + err);
-							createAllTables();
-				}else
-				{
-					console.log(TAG +"Database " +databaseName+  " created");
+					logger.log(TAG  , err);
 					createAllTables();
-
+				}
+				else
+				{
+					logger.log(TAG ,"Database " +databaseName+  " created");
+					createAllTables();
 				}
 			});
 		}
@@ -59,17 +52,15 @@ module.exports.createDataBase =  function () {
 };
 
 
-
-
 var createAllTables = function()
 {
-		createUsersTable();
+	createUsersTable();
 }
 
 
 var createUsersTable = function(){
 	var userTable = require('./GameCreateTableUsers');
-	  userTable.createUsersTable();
+	userTable.createUsersTable();
 }
 
 

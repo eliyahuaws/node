@@ -1,14 +1,50 @@
 var config = require('./config.json');
 var os = require('os');
 
-var name = config.test_envirment;
-var name1 = os.hostname();
-console.log(name +" " + name1);
-if(name.toString()== name1.toString()){
-console.log("test");
 
-}
-else
+function getPublicEnvironment()
 {
-console.log("production");
+	return config.test_environment_name == os.hostname();
 }
+
+
+function getPublicMysqlHost() {
+		 return config.mysql_host;
+}
+
+
+function getPublicMysqlUser() {
+  return config.mysql_user;
+}
+
+function getPublicMysqlSocket() {
+  return config.mysql_socket;
+}
+
+function getPublicMysqlDatabaseName()
+{
+	return config.database_name;
+}
+
+
+function getPublicMysqlPassword()
+{
+	if(getPublicEnvironment())
+	{
+		return config.mysql_test_pw;
+	}
+	else
+	{
+
+	}
+	return config.mysql_production_pw;
+}
+
+module.exports = {
+  getEnvironment: getPublicEnvironment,
+  getMysqlHost: getPublicMysqlHost,
+  getMysqlUser: getPublicMysqlUser,
+  getMysqlSocket :getPublicMysqlSocket,
+  getMysqlDatabaseName:getPublicMysqlDatabaseName,
+  getMysqlPassword:getPublicMysqlPassword
+};
