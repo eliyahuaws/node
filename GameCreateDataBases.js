@@ -5,12 +5,29 @@ var TAG = path.basename(__filename+" ");
 
 var mysql = require('mysql');
 
+var isTestEnvirment = true;
+
+
+
+if(isTestEnvirment)
+{
 var con = mysql.createConnection({
 	host: "localhost",
 	user: "root",
-	password: "root",
+	password: "",
 	socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 });
+}
+else
+{
+
+	var con = mysql.createConnection({
+	host: "localhost",
+	user: "root",
+	password: "eliyahu",
+});
+
+}
 
 var databaseName = "mydb";
 
