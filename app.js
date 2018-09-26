@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.post('/addUser', function(request, response){
      var jsonRequest = request.body;
-    insert.inserUser(response,jsonRequest.deviceId,jsonRequest.,request.connection.remoteAddress)
+    insert.inserUser(response,jsonRequest.deviceId,jsonRequest.nickName,request.connection.remoteAddress)
 });
 
 
