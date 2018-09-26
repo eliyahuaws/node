@@ -1,8 +1,8 @@
 var path = require("path");
 var TAG = path.basename(__filename+" ");
-var logger = require('./logger/GameLogger');
+var logger = require('./../logger/GameLogger');
 var mysql = require('mysql');
-var config = require('./config/config.js');
+var config = require('./../config/config.js');
 
 
 if(config.getEnvironment())
