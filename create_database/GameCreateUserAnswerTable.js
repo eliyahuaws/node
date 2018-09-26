@@ -8,7 +8,7 @@ var TableName = "user_answer";
 module.exports.createUserAnswerTable = function (callback) {
 
 	logger.log(TAG ,"Connected!");
-	var sql = "CREATE TABLE "+TableName+" (user_answerId VARCHAR(255), agreementId VARCHAR(255), questionId INT, start_time timestamp, end_time timestamp, point INT,right_answer INT);";
+	var sql = "CREATE TABLE "+TableName+" (user_answerId VARCHAR(255), agreementId VARCHAR(255), questionId INT, start_time timestamp NULL DEFAULT NULL, end_time timestamp NULL DEFAULT NULL, point INT,right_answer INT);";
 	con.query(sql, function (err, result) {
 		if (err)
 		{
