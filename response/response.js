@@ -6,7 +6,7 @@ var errorMassage = "Server Error";
                
 module.exports.setResponseOk = function (response,jsonResponse) {
 
-		logger.logI(TAG,"Response Ok 200 - "+jsonResponse);
+		logger.logI(TAG,"RESPONDE:200 - BODY"+JSON.stringify(jsonResponse));
 		response.setHeader('Content-Type', 'application/json');
 		response.status(200).json(jsonResponse);
 	
@@ -22,11 +22,11 @@ module.exports.setResponseFaild = function (response,err,code) {
 		{
 			case 100: errorResponse.massage = "Sql Syntax Error"; break;
 			case 101: errorResponse.massage = "User Alrady Exist";break;
+			case 300: errorResponse.massage = "Device Id Not Exist";break;
 		}
 
-		logger.logW(TAG,"Response Faild 500 - "+err + " - code:"+code);
+		logger.logE(TAG,"RESPONSE:500 - BODY "+JSON.stringify(errorResponse) + " " + err + " - code:"+code);
 		response.setHeader('Content-Type', 'application/json');
 		response.status(500).json(errorResponse);
-	
 };
 

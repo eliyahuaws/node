@@ -20,9 +20,27 @@ module.exports.createLanguageTable = function (callback) {
 			logger.logI(TAG ,TableName+" Table created");
 		}
 
+
+	var values = [];
+	values.push([1,"hebrew"],[2,"english"]);
+	
+	var sql = "INSERT INTO "+TableName+" (languageId , language_description) VALUES ?;";
+	con.query(sql,[values], function (err, result) {
+		if (err)
+		{
+			var code = 100;
+			logger.logE(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
+			responseHandler.setResponseFaild(response,err,code);
+		} 
+		logger.logI(TAG ,"hebrew and english insert");
 		if(callback!=null)
 		{
 			callback();
 		}
+	});
+
+
+
+
 	});
 };
