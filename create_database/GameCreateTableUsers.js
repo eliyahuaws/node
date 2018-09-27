@@ -10,20 +10,20 @@ module.exports.createUsersTable = function (callback) {
 	con.connect(function(err) {
 		if (err)
 		{
-			logger.log(TAG , err);
+			logger.logE(TAG , err);
 		}
 		else
 		{
-			logger.log(TAG ,"Connected!");
+			logger.logI(TAG ,"Connected!");
 			var sql = "CREATE TABLE "+TableName+" (deviceId VARCHAR(255) PRIMARY KEY,agreementId VARCHAR(255), nickName VARCHAR(255), fireBaseId VARCHAR(255))";
 			con.query(sql, function (err, result) {
 				if (err)
 				{
-					logger.log(TAG, err);
+					logger.logE(TAG, err);
 				} 
 				else
 				{
-					logger.log(TAG ,TableName+" Table created");
+					logger.logI(TAG ,TableName+" Table created");
 				}
 
 				callback();

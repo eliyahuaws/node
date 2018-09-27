@@ -7,17 +7,17 @@ var TableName = "statistic";
 
 module.exports.createStatisticTable = function (callback) {
 
-			logger.log(TAG ,"Connected!");
+			logger.logE(TAG ,"Connected!");
 			var sql = "CREATE TABLE "+TableName+" (agreementId VARCHAR(255), right_answer VARCHAR(255), wrong_answer VARCHAR(255), point VARCHAR(255));";
 			con.query(sql, function (err, result) {
 				if (err)
 				{
-					logger.log(TAG, err);
+					logger.logE(TAG, err);
 
 				} 
 				else
 				{
-					logger.log(TAG ,TableName+" Table created");
+					logger.logI(TAG ,TableName+" Table created");
 				}
 				callback();
 			});

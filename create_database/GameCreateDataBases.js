@@ -8,7 +8,7 @@ var logger = require('./../logger/GameLogger');
 
 if(config.getEnvironment())
 {
-	logger.log(TAG ,"TEST database connection ");
+	logger.logI(TAG ,"TEST database connection ");
 	var con = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
@@ -18,7 +18,7 @@ if(config.getEnvironment())
 }
 else
 {
-	logger.log(TAG ,"PROD database connection ");
+	logger.logI(TAG ,"PROD database connection ");
 	var con = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
@@ -32,22 +32,22 @@ module.exports.createDataBase =  function () {
 	con.connect(function(err) {
 		if (err)
 		{
-			logger.log(TAG , err);
+			logger.logE(TAG , err);
 			con.end();
 		}
 		else
 		{
-			logger.log(TAG ,"DataBase Connect");
+			logger.logI(TAG ,"DataBase Connect");
 			con.query("CREATE DATABASE "+databaseName, function (err, result) {
 				if (err)
 				{
-					logger.log(TAG  , err);
+					logger.logE(TAG  , err);
 					con.end();
 					createAllTables();
 				}
 				else
 				{
-					logger.log(TAG ,"Database " +databaseName+  " created");
+					logger.logI(TAG ,"Database " +databaseName+  " created");
 					con.end();
 					createAllTables();
 				}

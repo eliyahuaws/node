@@ -1,0 +1,19 @@
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 10:26:08
+Info - GameConfigData.js --start config game TIME:2018-9-27 10:26:08
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 10:26:08
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 10:26:08
+Info - GameDb.js --get TEST database connection TIME:2018-9-27 10:26:08
+Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 10:26:08
+Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 10:26:08
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 10:26:08
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 10:26:08
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 10:26:08
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-27 10:26:08
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 10:26:08
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-27 10:26:08

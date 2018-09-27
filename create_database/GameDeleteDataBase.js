@@ -8,19 +8,19 @@ var databaseName = "mydb";
 con.connect(function(err) {
 	if (err)
 	{
-		logger.log(TAG , err);
+		logger.logE(TAG , err);
 	}
 	else
 	{
-		logger.log(TAG +"Database Connected!");
+		logger.logI(TAG +"Database Connected!");
 		var sql = "drop database "+databaseName;
 		con.query(sql, function (err, result) {
 			if (err){
-				logger.log(TAG, err);
+				logger.logE(TAG, err);
 			} 
 			else
 			{
-				logger.log(TAG ,databaseName+" Delete");
+				logger.logI(TAG ,databaseName+" Delete");
 			}
 		});
 	}

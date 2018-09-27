@@ -20,12 +20,11 @@ module.exports.inserUser = function (response,deviceId,nickName,ip) {
 		if (err)
 		{
 			var code = 100;
-			console.log(err.code);
 			if(err.code =="ER_DUP_ENTRY")
 			{
 				code = 101;
 			}
-			logger.log(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
+			logger.logE(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
 			responseHandler.setResponseFaild(response,err,code);
 		} 
 		else

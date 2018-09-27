@@ -6,7 +6,7 @@ var errorMassage = "Server Error";
                
 module.exports.setResponseOk = function (response,jsonResponse) {
 
-		logger.log(TAG,"Response Ok 200 - "+jsonResponse);
+		logger.logI(TAG,"Response Ok 200 - "+jsonResponse);
 		response.setHeader('Content-Type', 'application/json');
 		response.status(200).json(jsonResponse);
 	
@@ -24,7 +24,7 @@ module.exports.setResponseFaild = function (response,err,code) {
 			case 101: errorResponse.massage = "User Alrady Exist";break;
 		}
 
-		logger.log(TAG,"Response Faild 500 - "+err + " - code:"+code);
+		logger.logW(TAG,"Response Faild 500 - "+err + " - code:"+code);
 		response.setHeader('Content-Type', 'application/json');
 		response.status(500).json(errorResponse);
 	
