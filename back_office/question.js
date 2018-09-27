@@ -66,52 +66,23 @@ module.exports.createQuestion = function(req, res){
 						}
 						else
 						{
-
-// res.send("INSERT QUESTION SUC");
-res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write('<form action="http://localhost:8080/finishClick" method="GET"');
-  res.write('<p>question insert-'+questionId+'</p>');
-  res.write('<input type="submit"value="Continue">');
-  res.write('</form>');
-   res.end();
-
- // res.sendFile(__dirname + "/" + "finish");
-
-// res.redirect('https://www.google.com')
-// setTimeout(function() {
-// 	logger.logE(TAG ,"RUN RUN RUN");
-							
-// 							res.writeHead(301,
-// 							{
-// 								Location: req.protocol + '://' + req.get('host')+'/insertquestion.html' 
-// 							});
-// 	res.end();
-
-// },1500);
-  // res.writeHead(200, {'Content-Type': 'text/html'});
-  // res.write('<form action="http://localhost:8080/finish" method="GET">');
-  // res.write('QUESTION INSERT SUC');
-  // res.write('<input type="submit">');
-  // res.write('</form>');
-  //  res.end();
-
-        // var input = document.getElementById('something');
-        // input.value = input.value +' across the street';
-
-
-							// res.end();
+						res.writeHead(200, {'Content-Type': 'text/html'});
+						res.write('<form action="'req.protocol + '://' + req.get('host')/finishclick+' method="GET"');
+						res.write('<p>question insert-'+questionId+'</p>');
+						res.write('<input type="submit"value="Continue">');
+						res.write('</form>');
+						res.end();
 						}
-
-
-
 
 					});
 				}
 
 				
 			});
-}
-});
+
+		}
+
+	});
 
 }
 

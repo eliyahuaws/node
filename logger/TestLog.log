@@ -347,3 +347,5 @@ Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:30:58
 Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:31:38
 Error - users.js -- DEVICE_ID:h IP:::1 Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' TIME:2018-9-27 23:31:59
 Error - response.js -- RESPONSE:500 - BODY {"massage":"User Alrady Exist","massageCode":101} Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' - code:101 TIME:2018-9-27 23:31:59
+Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:42:28
+Error - question.js -- ebe45fd9707d4f4ba0c6a7e4937400734e469f35,1,קוראים לי קרן,הורי קראו לי קרן בגלל שאבא שלי אוהב כדורגל TIME:2018-9-27 23:44:08
