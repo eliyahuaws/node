@@ -349,3 +349,20 @@ Error - users.js -- DEVICE_ID:h IP:::1 Error: ER_DUP_ENTRY: Duplicate entry 'h' 
 Error - response.js -- RESPONSE:500 - BODY {"massage":"User Alrady Exist","massageCode":101} Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' - code:101 TIME:2018-9-27 23:31:59
 Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:42:28
 Error - question.js -- ebe45fd9707d4f4ba0c6a7e4937400734e469f35,1,קוראים לי קרן,הורי קראו לי קרן בגלל שאבא שלי אוהב כדורגל TIME:2018-9-27 23:44:08
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:30:51
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:31:07
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:33:14
+Error - question.js -- 701bca01d1606082f951f32f520bedbab18429d1,1,asd,asda TIME:2018-9-30 09:33:16
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:33:50
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:33:54
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:35:55
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:36:00
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:37:44
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:37:51
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:39:17
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:39:19
+Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:39:51
+Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:39:55
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock - code:100 TIME:2018-9-30 09:39:55
+Error - question.js -- Cannot INSERT QUESTION -Error: Cannot enqueue Query after fatal error. TIME:2018-9-30 09:40:00
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-9-30 09:40:00

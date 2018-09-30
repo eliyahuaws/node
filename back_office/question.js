@@ -30,8 +30,9 @@ module.exports.createQuestion = function(req, res){
 	var sql = "INSERT INTO  "+questionTable+" (questionId ,subsubjectId ,questionConnectId ,answer ,diffeculty ,time ,point) VALUES ?";
 	con.query(sql,[values], function (err, result) {
 		if (err){
+			code = 100;
 			logger.logE(TAG ,"Cannot INSERT QUESTION -"+ err);
-			responseHandler.setResponseFaild(response,err,code);
+			responseHandler.setResponseFaild(res,err,code);
 		} 
 		else{
 			var languageId =1;
@@ -67,7 +68,8 @@ module.exports.createQuestion = function(req, res){
 						else
 						{
 						res.writeHead(200, {'Content-Type': 'text/html'});
-						res.write('<form action="'req.protocol + '://' + req.get('host')/finishclick+' method="GET"');
+						res.write('<form action="'+req.protocol + '://' + req.get('host')+'finishClick" method="GET"');
+								// res.write('<form action="'req.protocol + '://' + req.get('host')/finishclick+' method="GET"');
 						res.write('<p>question insert-'+questionId+'</p>');
 						res.write('<input type="submit"value="Continue">');
 						res.write('</form>');
