@@ -35,6 +35,7 @@ module.exports.createQuestion = function(req, res){
 			responseHandler.setResponseFaild(res,err,code);
 		} 
 		else{
+			logger.logI(TAG,"Insert Question To Question Table - values {"+values+"}");
 			var languageId =1;
 			var question_description = req.query.question_hebrew;
 			var answer_description = req.query.answer_description_hebrew;
@@ -42,7 +43,7 @@ module.exports.createQuestion = function(req, res){
 			var values = [];
 
 			values.push([questionId,languageId, question_description, answer_description]);
-			logger.logE(TAG,values);
+	
 			var sql = "INSERT INTO  "+questionDescriptionTable+" (questionId ,languageId ,question_description ,answer_description) VALUES ?";
 			con.query(sql,[values], function (err, result) {
 				if (err)
@@ -52,7 +53,7 @@ module.exports.createQuestion = function(req, res){
 				}
 				else
 				{
-
+		logger.logI(TAG,"Insert Question To QuestionDesctiption Table (hebrew) - values {"+values+"}");
 					var languageId =2;
 					var question_description = req.query.question_english;
 					var answer_description = req.query.answer_description_english;
@@ -67,8 +68,10 @@ module.exports.createQuestion = function(req, res){
 						}
 						else
 						{
+									logger.logI(TAG,"Insert Question To QuestionDesctiption Table (english) - values {"+values+"}");
+										logger.logI(TAG,'PAth -'+'<form action="'+req.protocol + '://' + req.get('host')+'finishClick" method="GET"');
 						res.writeHead(200, {'Content-Type': 'text/html'});
-						res.write('<form action="'+req.protocol + '://' + req.get('host')+'finishClick" method="GET"');
+						res.write('<form action="'+req.protocol + '://' + req.get('host')+'/finishClick" method="GET"');
 								// res.write('<form action="'req.protocol + '://' + req.get('host')/finishclick+' method="GET"');
 						res.write('<p>question insert-'+questionId+'</p>');
 						res.write('<input type="submit"value="Continue">');
