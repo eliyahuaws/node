@@ -24,14 +24,9 @@ app.get('/finishClick',function(req,res){
 
 
 app.get('/questioninsert', function(req, res){
-	try
-	{
-        questionDataHandler.createQuestion(req,res);
-	}
-	catch(err)
-	{
+
 		logger.logW(TAG,err);
-	}
+	
 
     }); 
 
