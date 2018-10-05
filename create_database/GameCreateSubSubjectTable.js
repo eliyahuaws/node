@@ -7,7 +7,7 @@ var TableName = "sub_subject";
 
 module.exports.createSubSubjectTable = function (callback) {
 
-	logger.logI(TAG ,"Connected!");
+	logger.I(TAG ,"Connected!");
 	var sql = "CREATE TABLE "+TableName+" (sub_subjectId VARCHAR(255), sub_subject_hebrew VARCHAR(255), sub_subject_english VARCHAR(255));";
 	con.query(sql, function (err, result) {
 		if (err)
@@ -17,7 +17,7 @@ module.exports.createSubSubjectTable = function (callback) {
 		} 
 		else
 		{
-			logger.logI(TAG ,TableName+" Table created");
+			logger.I(TAG ,TableName+" Table created");
 		}
 
 
@@ -30,7 +30,7 @@ module.exports.createSubSubjectTable = function (callback) {
 		{
 		logger.logE(TAG, err);
 		} 
-		logger.logI(TAG ,"hebrew and english insert "+values);
+		logger.I(TAG ,"hebrew and english insert "+values);
 		if(callback!=null)
 		{
 			callback();

@@ -12,7 +12,7 @@ con.connect(function(err) {
 	}
 	else
 	{
-		logger.logI(TAG +"Database Connected!");
+		logger.I(TAG +"Database Connected!");
 		var sql = "drop database "+databaseName;
 		con.query(sql, function (err, result) {
 			if (err){
@@ -20,7 +20,7 @@ con.connect(function(err) {
 			} 
 			else
 			{
-				logger.logI(TAG ,databaseName+" Delete");
+				logger.I(TAG ,databaseName+" Delete");
 			}
 		});
 	}

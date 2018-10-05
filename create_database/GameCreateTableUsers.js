@@ -14,8 +14,8 @@ module.exports.createUsersTable = function (callback) {
 		}
 		else
 		{
-			logger.logI(TAG ,"Connected!");
-			var sql = "CREATE TABLE "+TableName+" (deviceId VARCHAR(255) PRIMARY KEY,agreementId VARCHAR(255), nickName VARCHAR(255), fireBaseId VARCHAR(255))";
+			logger.I(TAG ,"Connected!");
+			var sql = "CREATE TABLE "+TableName+" (deviceId VARCHAR(255) ,agreementId VARCHAR(255),lastDeviceId VARCHAR(255),userName VARCHAR(255),password VARCHAR(255),nickName VARCHAR(255),fireBaseId VARCHAR(255), languageId INT, questionStage INT,lastConnection timestamp,PRIMARY KEY(deviceId, agreementId))";
 			con.query(sql, function (err, result) {
 				if (err)
 				{
@@ -23,7 +23,7 @@ module.exports.createUsersTable = function (callback) {
 				} 
 				else
 				{
-					logger.logI(TAG ,TableName+" Table created");
+					logger.I(TAG ,TableName+" Table created");
 				}
 
 				callback();

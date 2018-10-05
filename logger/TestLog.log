@@ -1,425 +1,737 @@
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 15:30:38
-Error - This string may destroy a sql insert statement-- undefined TIME:2018-9-27 15:30:38
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"ed8189ab2b1dfacc6117a7b6e84d4cd11911c0a8"} TIME:2018-9-27 15:30:45
-Warning - users.js --'h' Select agreementId From users WHERE deviceId = 'h''h' TIME:2018-9-27 15:30:48
-Info - users.js --result:ed8189ab2b1dfacc6117a7b6e84d4cd11911c0a8 TIME:2018-9-27 15:30:48
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","a":"asdasd","agreementId":"ed8189ab2b1dfacc6117a7b6e84d4cd11911c0a8"} TIME:2018-9-27 15:30:48
-Warning - users.js --'sdfsdf' Select agreementId From users WHERE deviceId = 'sdfsdf''sdfsdf' TIME:2018-9-27 15:31:30
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 15:35:20
-Error - This string may destroy a sql insert statement-- undefined TIME:2018-9-27 15:35:20
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Server Error"} TypeError: Cannot read property 'agreementId' of undefined - code:undefined TIME:2018-9-27 15:35:22
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 15:36:54
-Error - This string may destroy a sql insert statement-- undefined TIME:2018-9-27 15:36:54
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Server Error"} *cannot find device id - 'sdfsdf' *TypeError: Cannot read property 'agreementId' of undefined - code:undefined TIME:2018-9-27 15:36:57
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 15:38:16
-Error - This string may destroy a sql insert statement-- undefined TIME:2018-9-27 15:38:16
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  * cannot find device id - 'sdfsdf' * TypeError: Cannot read property 'agreementId' of undefined - code:300 TIME:2018-9-27 15:38:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:24:54
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-27 16:24:55
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-27 16:24:55
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:25:51
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:25:51
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:25:51
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 16:25:51
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:25:51
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 16:25:51
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 16:25:51
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 16:25:51
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 16:25:51
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:25:51
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 16:25:51
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-27 16:25:51
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 16:25:51
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-27 16:25:51
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:30:12
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-27 16:30:12
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-27 16:30:12
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:30:19
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:30:19
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:30:19
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 16:30:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:30:19
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:30:19
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 16:30:19
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:30:19
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 16:30:19
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:30:19
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 16:30:19
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:30:19
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 16:30:19
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:30:19
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:30:19
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 16:30:19
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:30:19
-Error - GameCreateSubSubjectTable.js -- Error: ER_DUP_FIELDNAME: Duplicate column name 'sub_subject_hebrew' TIME:2018-9-27 16:30:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:31:06
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-27 16:31:06
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-27 16:31:06
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:31:08
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:31:08
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:31:08
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 16:31:08
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:31:08
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:31:08
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 16:31:08
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:31:08
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 16:31:08
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:31:08
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 16:31:08
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:31:08
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 16:31:09
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:31:09
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:31:09
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 16:31:09
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:31:09
-Error - GameCreateSubSubjectTable.js -- Error: ER_DUP_FIELDNAME: Duplicate column name 'sub_subject_hebrew' TIME:2018-9-27 16:31:09
-Error - GameCreateSubSubjectTable.js -- Error: ER_NO_SUCH_TABLE: Table 'mydb.sub_subject' doesn't exist TIME:2018-9-27 16:31:09
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 16:31:09
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 16:31:09
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-27 16:31:09
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:31:52
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:31:52
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:31:52
-Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-9-27 16:31:52
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:31:52
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateTableUsers.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'users' already exists TIME:2018-9-27 16:31:52
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-9-27 16:31:52
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-9-27 16:31:52
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-9-27 16:31:52
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:31:52
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-9-27 16:31:52
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:31:52
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-27 16:31:52
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 16:31:52
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 16:31:52
-Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-9-27 16:31:52
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:31:56
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:31:56
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:31:56
-Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-9-27 16:31:56
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:31:56
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateTableUsers.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'users' already exists TIME:2018-9-27 16:31:56
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-9-27 16:31:56
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-9-27 16:31:56
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-9-27 16:31:56
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:31:56
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-9-27 16:31:56
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateSubSubjectTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'sub_subject' already exists TIME:2018-9-27 16:31:56
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 16:31:56
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 16:31:56
-Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-9-27 16:31:56
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:32:02
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-27 16:32:02
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-27 16:32:02
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 16:32:05
-Info - GameConfigData.js --start config game TIME:2018-9-27 16:32:05
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 16:32:05
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 16:32:05
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 16:32:05
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 16:32:05
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 16:32:06
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 16:32:06
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 16:32:06
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 16:32:06
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 16:32:06
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 16:32:06
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-27 16:32:06
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 16:32:06
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 16:32:06
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-27 16:32:06
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 17:03:20
-Info - GameConfigData.js --start config game TIME:2018-9-27 17:03:20
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 17:03:20
-Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-9-27 17:03:20
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 17:03:20
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateTableUsers.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'users' already exists TIME:2018-9-27 17:03:20
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 17:03:20
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateSubSubjectTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'sub_subject' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 17:03:20
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 17:03:20
-Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-9-27 17:03:20
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 17:04:19
-Info - GameConfigData.js --start config game TIME:2018-9-27 17:04:19
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 17:04:19
-Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-9-27 17:04:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 17:04:19
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateTableUsers.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'users' already exists TIME:2018-9-27 17:04:19
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-9-27 17:04:19
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-9-27 17:04:19
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-9-27 17:04:19
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 17:04:19
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-9-27 17:04:19
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateSubSubjectTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'sub_subject' already exists TIME:2018-9-27 17:04:19
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 17:04:19
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 17:04:19
-Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-9-27 17:04:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 20:49:10
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-27 20:49:10
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-27 20:49:10
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-27 20:49:26
-Info - GameConfigData.js --start config game TIME:2018-9-27 20:49:27
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-27 20:49:27
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-27 20:49:27
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 20:49:27
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-27 20:49:27
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-27 20:49:27
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-27 20:49:27
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-27 20:49:27
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-27 20:49:27
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-27 20:49:27
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-27 20:49:27
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-27 20:49:27
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-27 20:49:27
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-27 20:49:27
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:25:00
-Error - question.js -- Cannot INSERT QUESTION_DESCRIPTION -Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s) TIME:2018-9-27 21:25:15
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:29:20
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:29:55
-Error - question.js --  TIME:2018-9-27 21:30:00
-Error - question.js -- Cannot INSERT QUESTION_DESCRIPTION -Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s) TIME:2018-9-27 21:30:00
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:30:31
-Error - question.js -- 5c2e7f2cf66d45130b4e0f4992833288d561ace0,1,מי זה?,ליאור,ליאור TIME:2018-9-27 21:30:36
-Error - question.js -- Cannot INSERT QUESTION_DESCRIPTION -Error: ER_OPERAND_COLUMNS: Operand should contain 1 column(s) TIME:2018-9-27 21:30:36
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:33:12
-Error - question.js -- 1a1ccacd8d658156d65dec8eb06a1e97183532d6,1,מי זה?,ליאור TIME:2018-9-27 21:33:39
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:34:49
-Error - question.js -- 4de8b08ed8d1e6c8fd3a77c4d082b43b49b0ca37,1,קרן,אליהו TIME:2018-9-27 21:35:25
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:38:57
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:40:22
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:40:53
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:41:13
-Info - app.js --URL http://localhost:8080/insertquestion.html TIME:2018-9-27 21:41:17
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:43:12
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:45:30
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:45:33
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:49:51
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:50:00
-Error - question.js -- b3d7a0a76723d0568cad31ecd6963d0f7f0f10d4,1,a,a TIME:2018-9-27 21:50:06
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:50:11
-Error - question.js -- 672638b4147984191375ad76c42c18e896de1eb6,1,a,a TIME:2018-9-27 21:50:11
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:50:38
-Error - question.js -- b3bcc3c00b98bd630776b62d039bb46e1de812db,1,a,a TIME:2018-9-27 21:50:41
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:50:41
-Error - question.js -- 8d93752b7016baad9fb8b1dbae87542b0a4a67ec,1,d,d TIME:2018-9-27 21:50:49
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:50:49
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:52:34
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:52:41
-Info - app.js --URL http://localhost:8080 TIME:2018-9-27 21:52:46
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 21:59:00
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:00:24
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:01:38
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:07:46
-Error - question.js -- 4b037612b3a278803b4428ed0f3c04a964146ed0,1,a,s TIME:2018-9-27 22:07:55
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:08:51
-Error - question.js -- 3ceab150f787070677e8443045302c1b29ebbc0b,1,a,s TIME:2018-9-27 22:09:02
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:09:41
-Error - question.js -- 38c0dd46c9cefa36ac5a2357d6e047389c4794ac,1,sdf,sdf TIME:2018-9-27 22:09:47
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:12:13
-Error - question.js -- 3cc1a9830c2386d3d0e0a342e0f6908814a23a21,1,asd,asd TIME:2018-9-27 22:12:22
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:12:56
-Error - question.js -- e6a7a06f95e035eb179e02d8e1112092701a5ba8,1,asd,asd TIME:2018-9-27 22:12:57
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:13:09
-Error - question.js -- 894da4a2fa51bbea66ac581db345fb8615fae992,1,asd,asd TIME:2018-9-27 22:13:14
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:14:04
-Error - question.js -- 0620ade88fc7623b6735155eedac4b780350fbdc,1,sdf,sdf TIME:2018-9-27 22:14:12
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:18:22
-Error - question.js -- 4d5d26135909cf9c3ef5328e784b791f9ff1210f,1,asd,asd TIME:2018-9-27 22:18:32
-Error - question.js -- RUN RUN RUN TIME:2018-9-27 22:18:37
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:21:12
-Error - question.js -- e4decbd2469ffade1c0e4fb24514986cf4d80a3f,1,dfgd,fgdfg TIME:2018-9-27 22:21:21
-Error - question.js -- RUN RUN RUN TIME:2018-9-27 22:21:26
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:21:50
-Error - question.js -- d77ad5e1ddd395766e647266cdf57a9e0796d2be,1,asd,asd TIME:2018-9-27 22:21:59
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:22:18
-Error - question.js -- b1fee0a1e0543ed8d2aba78dde549de046fb79ab,1,sd,sd TIME:2018-9-27 22:22:30
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:27:08
-Error - question.js -- 58770521025c2946380423c0abf97dc92d5bf0cb,1,sd,sd TIME:2018-9-27 22:27:15
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:28:16
-Error - question.js -- 9ac1b2b186721fb33a54b10bc8f47e6f6c94a1db,1,sd,sd TIME:2018-9-27 22:28:24
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:29:13
-Error - question.js -- 873b6524cef3a073bfd0e3e8763eafb39d076f14,1,fghf,fgh TIME:2018-9-27 22:29:21
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:30:03
-Error - question.js -- bfdd5901a471a5c0ba9cffdfcda29b8f826de631,1,fghf,fgh TIME:2018-9-27 22:30:09
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:32:29
-Error - question.js -- 130d8f227df017272ef0164b71f21d2114865292,1,fghf,fgh TIME:2018-9-27 22:32:35
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:33:31
-Error - question.js -- 488511af36c88edc035a36e95dd1b53437656a2f,1,fghf,fgh TIME:2018-9-27 22:33:41
-Error - question.js -- RUN RUN RUN TIME:2018-9-27 22:33:42
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:34:46
-Error - question.js -- 64a7085b8e7a1dcdd8a762a72dc05d8187cabfce,1,fghf,fgh TIME:2018-9-27 22:34:51
-Error - question.js -- RUN RUN RUN TIME:2018-9-27 22:34:52
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:35:29
-Error - question.js -- aa50bf982605a43e725e630714d9500551659a50,1,fghf,fgh TIME:2018-9-27 22:35:33
-Error - question.js -- RUN RUN RUN TIME:2018-9-27 22:35:35
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:37:38
-Error - question.js -- 2be9821b304def495b2dbb2acc21a510ce865b50,1,fghf,fgh TIME:2018-9-27 22:37:49
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:38:02
-Error - question.js -- 1ed8c31423a439f79801a01705a76f532b371b8e,1,fghf,fgh TIME:2018-9-27 22:38:06
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:38:33
-Error - question.js -- b0d82336c1e49bfad8f38ad061bf07b14367685b,1,fghf,fgh TIME:2018-9-27 22:38:38
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:40:53
-Error - question.js -- a4567bdcaf5af2a942dfabb30f25925f6ac651ec,1,fghf,fgh TIME:2018-9-27 22:40:59
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:46:37
-Error - question.js -- 94f57fc06aebfa540e5e60f99c3c2b41cb2d2a60,1,, TIME:2018-9-27 22:47:00
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:49:17
-Error - question.js -- 6036426e05b10fbbae33c9030289e2e85ad79f0d,1,sdf,sdf TIME:2018-9-27 22:49:25
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:52:41
-Error - question.js -- Cannot INSERT QUESTION -Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list' TIME:2018-9-27 22:52:48
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:53:01
-Error - question.js -- a41bdebaee55ada24d8a2d3294880ca9752b678e,1,asd,asd TIME:2018-9-27 22:53:09
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 22:55:15
-Error - question.js -- d828269c30452de37af445e9e6bf7b18a46e94f4,1,fsdf,sdf TIME:2018-9-27 22:55:23
-Error - question.js -- 3d0c5270e58d23e47c8124d266fd09b35a5c8eee,1,fsdf,dfdsf TIME:2018-9-27 23:00:34
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:05:01
-Error - question.js -- 96f71e1fc25022f2699bcc64b14cf7cd64c7854b,1,dgfg,dfgdfg TIME:2018-9-27 23:05:23
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:09:07
-Error - question.js -- fef5f7979e76c2b1d0ef1c08b4fe321470d20d74,1,dgfg,dfgdfg TIME:2018-9-27 23:09:13
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:10:02
-Error - question.js -- 8b4fdde44a8737645e62cf5bcaceb098f4a871ce,1,dgfg,dfgdfg TIME:2018-9-27 23:10:08
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:10:29
-Error - question.js -- 3979588f4ae1a2b3b89e34d84dec1d8789a927d1,1,dgfg,dfgdfg TIME:2018-9-27 23:10:37
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:11:14
-Error - question.js -- 8644719ee007a6bd8cbd05afa2b1ce535b105441,1,dgfg,dfgdfg TIME:2018-9-27 23:11:20
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:16:34
-Error - question.js -- c84d15c6d9461d574f390c4731ff31b2db4ea83e,1,dgfg,dfgdfg TIME:2018-9-27 23:16:38
-Error - question.js -- e155e6f1e147a4f7e206136d308c13eb78e4c3e1,1,asdasd,asda TIME:2018-9-27 23:17:04
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:19:37
-Error - question.js -- 1c64cfa3a30ac8431cb1fa5c691138824af84670,1,asdasd,asda TIME:2018-9-27 23:19:43
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:20:43
-Error - question.js -- 853b6bbe6b3294ba5c19ee8a05d1ce00d9e2901e,1,asdasd,asda TIME:2018-9-27 23:20:50
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:21:54
-Error - question.js -- b0a105cf00f4e20cf75c3ba5175e48cff35c13d0,1,asdasd,asda TIME:2018-9-27 23:22:01
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:22:29
-Error - question.js -- 035fd4cc82e265778b5c74c1cf73f8d2f5c8004a,1,asdasd,asda TIME:2018-9-27 23:22:37
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:27:39
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"2edb4896016f1913ba286bb62cdc8f78bcf761ba"} TIME:2018-9-27 23:27:50
-Error - users.js -- DEVICE_ID:h IP:::1 Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' TIME:2018-9-27 23:27:52
-Error - response.js -- RESPONSE:500 - BODY {"massage":"User Alrady Exist","massageCode":101} Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' - code:101 TIME:2018-9-27 23:27:52
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:28:09
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:30:26
-Error - users.js -- DEVICE_ID:h IP:::1 Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' TIME:2018-9-27 23:30:40
-Error - response.js -- RESPONSE:500 - BODY {"massage":"User Alrady Exist","massageCode":101} Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' - code:101 TIME:2018-9-27 23:30:40
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:30:58
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:31:38
-Error - users.js -- DEVICE_ID:h IP:::1 Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' TIME:2018-9-27 23:31:59
-Error - response.js -- RESPONSE:500 - BODY {"massage":"User Alrady Exist","massageCode":101} Error: ER_DUP_ENTRY: Duplicate entry 'h' for key 'PRIMARY' - code:101 TIME:2018-9-27 23:31:59
-Info - GameDb.js --get TEST database connection TIME:2018-9-27 23:42:28
-Error - question.js -- ebe45fd9707d4f4ba0c6a7e4937400734e469f35,1,קוראים לי קרן,הורי קראו לי קרן בגלל שאבא שלי אוהב כדורגל TIME:2018-9-27 23:44:08
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:30:51
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:31:07
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:33:14
-Error - question.js -- 701bca01d1606082f951f32f520bedbab18429d1,1,asd,asda TIME:2018-9-30 09:33:16
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:33:50
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:33:54
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:35:55
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:36:00
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:37:44
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:37:51
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:39:17
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:39:19
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:39:51
-Error - question.js -- Cannot INSERT QUESTION -Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:39:55
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock - code:100 TIME:2018-9-30 09:39:55
-Error - question.js -- Cannot INSERT QUESTION -Error: Cannot enqueue Query after fatal error. TIME:2018-9-30 09:40:00
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-9-30 09:40:00
-Error - question.js -- Cannot INSERT QUESTION -Error: Cannot enqueue Query after fatal error. TIME:2018-9-30 09:49:06
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-9-30 09:49:06
-Error - question.js -- Cannot INSERT QUESTION -Error: Cannot enqueue Query after fatal error. TIME:2018-9-30 09:50:53
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-9-30 09:50:53
-Error - question.js -- Cannot INSERT QUESTION -Error: Cannot enqueue Query after fatal error. TIME:2018-9-30 09:55:32
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-9-30 09:55:32
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 09:57:01
-Error - GameDeleteDataBase.js -- Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:57:01
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-30 09:57:12
-Info - GameConfigData.js --start config game TIME:2018-9-30 09:57:12
-Error - GameCreateDataBases.js-- Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock TIME:2018-9-30 09:57:12
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:00:14
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-9-30 10:00:14
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-9-30 10:00:14
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:01:05
-Error - GameDeleteDataBase.js -- Error: ER_BAD_DB_ERROR: Unknown database 'mydb' TIME:2018-9-30 10:01:05
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-9-30 10:01:17
-Info - GameConfigData.js --start config game TIME:2018-9-30 10:01:17
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-9-30 10:01:17
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-9-30 10:01:17
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:01:17
-Info - GameCreateTableUsers.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateTableUsers.js --users Table created TIME:2018-9-30 10:01:17
-Error - GameCreateStatisticTable.js -- Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-9-30 10:01:17
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-9-30 10:01:17
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-9-30 10:01:17
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-9-30 10:01:17
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-9-30 10:01:17
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-9-30 10:01:17
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-9-30 10:01:17
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-9-30 10:01:17
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-9-30 10:01:17
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:55:45
-Error - question.js -- 5ff7bedd36a1d44be46eb635805038495705e251,1,asd,asd TIME:2018-9-30 10:56:00
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:57:55
-Error - question.js -- 2b206d1012af25848ce4e6f75422a7517947d1b0,1,a,a TIME:2018-9-30 10:58:09
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 10:59:20
-Error - question.js -- d8adb5acf577266deb10c526c6b84546133fabba,1,asd,asd TIME:2018-9-30 10:59:30
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 11:01:31
-Error - question.js -- 48970d6cea32beba2ef6a15a731a09e2552e765c,1,a,a TIME:2018-9-30 11:01:41
-Error - question.js -- e4b8a56408d5dc57d3a914c422d9ade11742c029,1,b,b TIME:2018-9-30 11:02:51
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 11:07:27
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-9-30 11:07:36
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-9-30 11:07:36
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {c11a8374a63ead71bc52020a4abdd6a955a4221c,2,c,c} TIME:2018-9-30 11:07:36
-Info - question.js --PAth -<form action="http://localhost:8080finishClick" method="GET" TIME:2018-9-30 11:07:36
-Info - GameDb.js --get TEST database connection TIME:2018-9-30 11:08:05
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-9-30 11:08:58
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-9-30 11:08:58
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {39b02d13c7e5d40c27e3dc33a49c2befc788d00e,2,d,d} TIME:2018-9-30 11:08:58
-Info - question.js --PAth -<form action="http://localhost:8080finishClick" method="GET" TIME:2018-9-30 11:08:58
-Info - http://localhost:8080/insertquestion.html asdasdasd--undefined TIME:2018-9-30 11:08:59
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:42:45
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-5 21:42:45
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-5 21:42:45
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 21:43:00
+Info - GameConfigData.js --start config game TIME:2018-10-5 21:43:00
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 21:43:00
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-5 21:43:00
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:43:00
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-5 21:43:00
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-5 21:43:00
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-5 21:43:00
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-5 21:43:00
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 21:43:00
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-5 21:43:00
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-5 21:43:00
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 21:43:00
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-5 21:43:00
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 21:43:00
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-5 21:43:00
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 21:43:00
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:45:41
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-5 21:45:41
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-5 21:45:41
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 21:45:46
+Info - GameConfigData.js --start config game TIME:2018-10-5 21:45:46
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 21:45:46
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-5 21:45:46
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:45:46
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-5 21:45:46
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-5 21:45:46
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-5 21:45:46
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-5 21:45:46
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 21:45:46
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-5 21:45:46
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-5 21:45:46
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 21:45:46
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-5 21:45:46
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 21:45:46
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-5 21:45:46
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 21:45:46
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:51:13
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:51:15
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:52:04
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:52:06
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:53:12
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:53:14
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:54:13
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:54:16
+Error - users.js -- function checkIfStageAndLanguageValid IP:undefined Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::1' at line 1 TIME:2018-10-5 21:54:16
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:57:06
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:57:09
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:57:42
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:57:46
+Error - users.js -- SQL : TIME:2018-10-5 21:57:46
+Error - users.js -- function checkIfStageAndLanguageValid IP:undefined Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::1' at line 1 TIME:2018-10-5 21:57:46
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:58:24
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:58:29
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =::1 TIME:2018-10-5 21:58:29
+Error - users.js -- function checkIfStageAndLanguageValid IP:undefined Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::1' at line 1 TIME:2018-10-5 21:58:29
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 21:59:20
+Warning - users.js --1 - 1,::1 - ::1 TIME:2018-10-5 21:59:26
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =::1 TIME:2018-10-5 21:59:26
+Error - users.js -- function checkIfStageAndLanguageValid IP:undefined Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::1' at line 1 TIME:2018-10-5 21:59:26
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:00:27
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-5 22:00:29
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-5 22:00:29
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"c82475a6c42dd9948d24fa6de07ce3ea3814924e","agreementId":"89508599ea515c3e68b5f7966eba42491776dd18","questionStage":"1","languageId":"1"} TIME:2018-10-5 22:00:30
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:13:54
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:14:04
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-5 22:14:04
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-5 22:14:04
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 22:14:11
+Info - GameConfigData.js --start config game TIME:2018-10-5 22:14:11
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 22:14:11
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-5 22:14:11
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:14:11
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-5 22:14:11
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-5 22:14:11
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-5 22:14:11
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-5 22:14:11
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 22:14:11
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-5 22:14:11
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-5 22:14:11
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 22:14:11
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-5 22:14:11
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 22:14:11
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-5 22:14:11
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 22:14:11
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:14:50
+Warning - Sdfsdfsdfsdf--bla a ba4df03b85f2ec42d8ff8851ad6f66c1643155b6 TIME:2018-10-5 22:14:55
+Warning - question.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-5 22:14:55
+Error - question.js -- DEVICE_ID:a AGREEMENT_ID:ba4df03b85f2ec42d8ff8851ad6f66c1643155b6 IP:::1 User Not Found TIME:2018-10-5 22:14:55
+Error - response.js -- RESPONSE:500 - BODY {"massage":"User Not Found","massageCode":401} null - code:401 TIME:2018-10-5 22:14:55
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-5 22:15:00
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-5 22:15:00
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"6039b1cff80e053c700378883187540584ac246f","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7","questionStage":"1","languageId":"1"} TIME:2018-10-5 22:15:00
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:21:52
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:23:51
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * TypeError: _this.checkLastConnectionValidation is not a function - code:300 TIME:2018-10-5 22:23:54
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * TypeError: _this.checkLastConnectionValidation is not a function - code:300 TIME:2018-10-5 22:24:32
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:26:14
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:26:40
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:27:17
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:27:22
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * TypeError: _this.checkLastConnectionValidation is not a function - code:300 TIME:2018-10-5 22:27:22
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:30:08
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:30:10
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * TypeError: _this.checkLastConnectionValidation is not a function - code:300 TIME:2018-10-5 22:30:10
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:30:24
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * TypeError: _this.checkLastConnectionValidation is not a function - code:300 TIME:2018-10-5 22:30:24
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:31:24
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:31:26
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:32:48
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:32:50
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:32:50
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:33:14
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:33:16
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:33:16
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:35:06
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:35:08
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:35:08
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:35:22
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:35:25
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:35:25
+Warning - users.js --NaN TIME:2018-10-5 22:35:25
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:35:25
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:35:25
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:36:08
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:36:10
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:36:10
+Warning - users.js --undefined - Fri Oct 05 2018 22:15:00 GMT+0300 (IDT) NaN TIME:2018-10-5 22:36:10
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:36:10
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:36:10
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:37:11
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:37:14
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:37:14
+Warning - users.js --1538768234142 - Fri Oct 05 2018 22:15:00 GMT+0300 (IDT) 1334142 TIME:2018-10-5 22:37:14
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:37:14
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:37:14
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:43:16
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:43:16
+Warning - users.js --1538768596287 - Fri Oct 05 2018 22:15:00 GMT+0300 (IDT) 1696287 TIME:2018-10-5 22:43:16
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:43:16
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:43:16
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:43:17
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:43:17
+Warning - users.js --1538768597238 - Fri Oct 05 2018 22:15:00 GMT+0300 (IDT) 1697238 TIME:2018-10-5 22:43:17
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:43:17
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:43:17
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:43:17
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:43:17
+Warning - users.js --1538768597878 - Fri Oct 05 2018 22:15:00 GMT+0300 (IDT) 1697878 TIME:2018-10-5 22:43:17
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:43:17
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:43:17
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:43:57
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:43:57
+Warning - users.js --1538768637450 - Tue Oct 09 2018 22:15:00 GMT+0300 (IDT) -343862550 TIME:2018-10-5 22:43:57
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:43:57
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:43:57
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:43:58
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:43:58
+Warning - users.js --1538768638347 - Tue Oct 09 2018 22:15:00 GMT+0300 (IDT) -343861653 TIME:2018-10-5 22:43:58
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:43:58
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:43:58
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:44:42
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:44:42
+Warning - users.js --1538768682386 - Thu Oct 11 2018 22:15:00 GMT+0300 (IDT) -516617614 TIME:2018-10-5 22:44:42
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:44:42
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:44:42
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:44:43
+Error - users.js -- checkLastConnectionValidation1 TIME:2018-10-5 22:44:43
+Warning - users.js --1538768683359 - Thu Oct 11 2018 22:15:00 GMT+0300 (IDT) -516616641 TIME:2018-10-5 22:44:43
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:44:43
+Error - users.js -- checkLastConnectionValidation2 TIME:2018-10-5 22:44:43
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:45:33
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:45:35
+Warning - -516564222 --- 432000000--undefined TIME:2018-10-5 22:45:35
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:45:35
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:46:27
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:46:30
+Warning - -516509307 --- 432000000--undefined TIME:2018-10-5 22:46:30
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:46:30
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:49:32
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:49:35
+Warning - 3120300000 --- 432000000--undefined TIME:2018-10-5 22:49:35
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 22:49:35
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:49:49
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:49:52
+Warning - 3033900000 --- 432000000--undefined TIME:2018-10-5 22:49:52
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 22:49:52
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:50:08
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:50:10
+Warning - 2688300000 --- 432000000--undefined TIME:2018-10-5 22:50:10
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 22:50:10
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:50:31
+Warning - 2688300000 --- 432000000--undefined TIME:2018-10-5 22:50:31
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 22:50:31
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 22:50:35
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:50:36
+Warning - 2136840 --- 432000000--undefined TIME:2018-10-5 22:50:36
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:50:36
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:51:04
+Warning - 434164798 --- 432000000--undefined TIME:2018-10-5 22:51:04
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 22:51:04
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:51:24
+Warning - 261384054 --- 432000000--undefined TIME:2018-10-5 22:51:24
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:51:24
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 22:53:12
+Warning - 261492840 --- 432000000--undefined TIME:2018-10-5 22:53:12
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 22:53:12
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 23:00:53
+Warning - 261953020 --- 432000000--undefined TIME:2018-10-5 23:00:53
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 23:00:53
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 23:00:54
+Warning - 261954259 --- 432000000--undefined TIME:2018-10-5 23:00:54
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 23:00:54
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:00:59
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 23:01:02
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '6039b1cff80e053c700378883187540584ac246f' * ReferenceError: checkLastConnectionValidation is not defined - code:300 TIME:2018-10-5 23:01:02
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:02:08
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '6039b1cff80e053c700378883187540584ac246f' TIME:2018-10-5 23:02:11
+Warning - 262031197 --- 432000000--undefined TIME:2018-10-5 23:02:11
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"7ef4e7d8a4f7d5562e5dd2bab8dd55dfaa63a8f7"} TIME:2018-10-5 23:02:11
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:06:57
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-5 23:06:57
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-5 23:06:57
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 23:07:02
+Info - GameConfigData.js --start config game TIME:2018-10-5 23:07:02
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 23:07:02
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-5 23:07:02
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:07:02
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 23:07:02
+Error - GameCreateTableUsers.js -- Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(255),userName VARCHAR(255),password VARCHAR(255),nickName VARCHAR(255),fireBase' at line 1 TIME:2018-10-5 23:07:02
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 23:07:02
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-5 23:07:02
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 23:07:02
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-5 23:07:03
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 23:07:03
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-5 23:07:03
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 23:07:03
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 23:07:03
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-5 23:07:03
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 23:07:03
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-5 23:07:03
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 23:07:03
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 23:07:03
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-5 23:07:03
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 23:07:03
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-5 23:07:03
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 23:07:03
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 23:07:36
+Info - GameConfigData.js --start config game TIME:2018-10-5 23:07:36
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 23:07:36
+Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-10-5 23:07:36
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:07:36
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 23:07:36
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-5 23:07:36
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 23:07:36
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateSubSubjectTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'sub_subject' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 23:07:36
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 23:07:36
+Error - GameCreateQuestionStageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_stage' already exists TIME:2018-10-5 23:07:36
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 23:07:36
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 23:08:24
+Info - GameConfigData.js --start config game TIME:2018-10-5 23:08:24
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 23:08:24
+Error - GameCreateDataBases.js-- Error: ER_DB_CREATE_EXISTS: Can't create database 'mydb'; database exists TIME:2018-10-5 23:08:24
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:08:24
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateTableUsers.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'users' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateStatisticTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'statistic' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateTableQuestion.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateLanguageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'language' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 23:08:24
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateQuestionDescriptionTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_description' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateSubSubjectTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'sub_subject' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 23:08:24
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateUserAnswerTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'user_answer' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 23:08:24
+Error - GameCreateQuestionStageTable.js -- Error: ER_TABLE_EXISTS_ERROR: Table 'question_stage' already exists TIME:2018-10-5 23:08:24
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 23:08:24
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:08:44
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-5 23:08:46
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-5 23:08:46
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"fd0483fdbcc67a3e11fa573c98d537c12c001d0d","agreementId":"3fd72b216f85252005a83c4b83e7620610a69fd7","questionStage":"1","languageId":"1"} TIME:2018-10-5 23:08:46
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-5 23:20:33
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-5 23:20:33
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"363332a1712e76828366d3791fcb429c77e08f88","agreementId":"2317236bfddeb31e572654b523b5ed0875dde758","questionStage":"1","languageId":"1"} TIME:2018-10-5 23:20:33
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:20:41
+Warning - 8154 --- 432000000--undefined TIME:2018-10-5 23:20:41
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"2317236bfddeb31e572654b523b5ed0875dde758"} TIME:2018-10-5 23:20:41
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:21:10
+Warning - 518437118 --- 432000000--undefined TIME:2018-10-5 23:21:10
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:21:10
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:21:42
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:21:45
+Warning - 518472623 --- 432000000--undefined TIME:2018-10-5 23:21:45
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"2317236bfddeb31e572654b523b5ed0875dde758"} TIME:2018-10-5 23:21:45
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:21:52
+Warning - 518479984 --- 432000000--undefined TIME:2018-10-5 23:21:52
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"2317236bfddeb31e572654b523b5ed0875dde758"} TIME:2018-10-5 23:21:52
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:23:27
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:23:30
+Warning - 518577254 --- 432000000--undefined TIME:2018-10-5 23:23:30
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:23:30
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:23:30
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:24:20
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:24:22
+Warning - 518629959 --- 432000000--undefined TIME:2018-10-5 23:24:22
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:24:22
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:24:22
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:25:46
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:25:49
+Warning - 518716050 --- 432000000--undefined TIME:2018-10-5 23:25:49
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:25:49
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:25:49
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:25:49
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:27:50
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:27:54
+Warning - 518841122 --- 432000000--undefined TIME:2018-10-5 23:27:54
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:27:54
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:27:54
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:27:54
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:27:54
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:29:18
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:29:21
+Warning - 518928353 --- 432000000--undefined TIME:2018-10-5 23:29:21
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:29:21
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:29:21
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:29:21
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:29:21
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:29:21
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:29:59
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:30:05
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:30:05
+Warning - 518972036 --- 432000000--undefined TIME:2018-10-5 23:30:05
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:30:05
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:30:05
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:30:05
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:30:05
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:30:05
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:30:49
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:30:53
+CreticalError - users.js --CCCCCCCC- undefined DEVICE_ID = NULL TIME:2018-10-5 23:30:53
+Warning - 519020031 --- 432000000--undefined TIME:2018-10-5 23:30:53
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:30:53
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:30:53
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:30:53
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:30:53
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:30:53
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:31:44
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:31:47
+CreticalError - users.js --CCCCCCCC- undefined DEVICE_ID = NULL TIME:2018-10-5 23:31:47
+Warning - 519074766 --- 432000000--undefined TIME:2018-10-5 23:31:47
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:31:47
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:31:47
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:31:47
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:31:47
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:31:47
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:32:07
+CreticalError - users.js --CCCCCCCC- undefined DEVICE_ID = NULL TIME:2018-10-5 23:32:07
+Warning - 519094946 --- 432000000--undefined TIME:2018-10-5 23:32:07
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - undefined DEVICE_ID = NULL TIME:2018-10-5 23:32:07
+CreticalError - deviceIDDDundefined--undefined TIME:2018-10-5 23:32:07
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:32:07
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:32:07
+Info - users.js --REMOVE DEVICE_ID - undefined TIME:2018-10-5 23:32:07
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:33:25
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '363332a1712e76828366d3791fcb429c77e08f88' TIME:2018-10-5 23:33:28
+Warning - 519175558 --- 432000000--undefined TIME:2018-10-5 23:33:28
+CreticalError - deviceIDDD363332a1712e76828366d3791fcb429c77e08f88--undefined TIME:2018-10-5 23:33:28
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:33:28
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:33:28
+CreticalError - users.js --CANNOT CHANGE DEVICE_ID - 363332a1712e76828366d3791fcb429c77e08f88 Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY' TIME:2018-10-5 23:33:28
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:36:20
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:36:28
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-5 23:36:28
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-5 23:36:28
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-5 23:36:41
+Info - GameConfigData.js --start config game TIME:2018-10-5 23:36:41
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-5 23:36:41
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-5 23:36:41
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:36:41
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-5 23:36:41
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-5 23:36:41
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-5 23:36:41
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-5 23:36:41
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-5 23:36:41
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-5 23:36:41
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-5 23:36:41
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-5 23:36:41
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-5 23:36:41
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-5 23:36:41
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-5 23:36:41
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-5 23:36:41
+Info - GameDb.js --get TEST database connection TIME:2018-10-5 23:36:56
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-5 23:37:01
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-5 23:37:01
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"7bb67f6254c8b353ada6e014c27e7c3842d57bf8","agreementId":"099f1006bad1383f3407b36407f50e8ab31354e5","questionStage":"1","languageId":"1"} TIME:2018-10-5 23:37:01
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '7bb67f6254c8b353ada6e014c27e7c3842d57bf8' TIME:2018-10-5 23:37:08
+Warning - 7632 --- 432000000--undefined TIME:2018-10-5 23:37:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"099f1006bad1383f3407b36407f50e8ab31354e5"} TIME:2018-10-5 23:37:08
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '7bb67f6254c8b353ada6e014c27e7c3842d57bf8' TIME:2018-10-5 23:37:28
+Warning - 432027482 --- 432000000--undefined TIME:2018-10-5 23:37:28
+CreticalError - deviceIDDD7bb67f6254c8b353ada6e014c27e7c3842d57bf8--undefined TIME:2018-10-5 23:37:28
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-5 23:37:28
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-5 23:37:28
+Info - users.js --REMOVE DEVICE_ID - 7bb67f6254c8b353ada6e014c27e7c3842d57bf8 TIME:2018-10-5 23:37:28
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:02:08
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:03:17
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:04:38
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:05:16
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","dateTime":1538773524185,"date":"2018-10-05T21:05:24.185Z"} TIME:2018-10-6 00:05:24
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:42:07
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:42:54
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:7bb67f6254c8b353ada6e014c27e7c3842d57bf8 IP:::1 - TRY TO CHANGE DEVICE_ID FROM :7bb67f6254c8b353ada6e014c27e7c3842d57bf8 TO: 7777 - code:700 TIME:2018-10-6 00:42:56
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-6 00:43:08
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-6 00:43:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"584a5ee52b9a2e16987e35a083534e504f69f0dc","agreementId":"a4d6fe2e3f42d87e958e3c363f578e8df9bd1872","questionStage":"1","languageId":"1"} TIME:2018-10-6 00:43:08
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 5555 - code:700 TIME:2018-10-6 00:43:53
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '584a5ee52b9a2e16987e35a083534e504f69f0dc' TIME:2018-10-6 00:44:07
+Warning - 59700 --- 432000000--undefined TIME:2018-10-6 00:44:07
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"a4d6fe2e3f42d87e958e3c363f578e8df9bd1872"} TIME:2018-10-6 00:44:07
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '584a5ee52b9a2e16987e35a083534e504f69f0dc' TIME:2018-10-6 00:44:32
+Warning - 518484181 --- 432000000--undefined TIME:2018-10-6 00:44:32
+CreticalError - deviceIDDD584a5ee52b9a2e16987e35a083534e504f69f0dc--undefined TIME:2018-10-6 00:44:32
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 00:44:32
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 00:44:32
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 00:44:32
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 5555 - code:700 TIME:2018-10-6 00:44:40
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:46:02
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:46:05
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 5555 - code:700 TIME:2018-10-6 00:46:05
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:47:32
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined-- undefined TIME:2018-10-6 00:47:35
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:47:35
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 5555 - code:700 TIME:2018-10-6 00:47:35
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:48:36
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined-- undefined TIME:2018-10-6 00:48:40
+Error - c-8c-4c-ac-5-- undefined TIME:2018-10-6 00:48:40
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 84a5 - code:700 TIME:2018-10-6 00:48:40
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:50:17
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined-- undefined TIME:2018-10-6 00:50:27
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:50:27
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 55555 - code:700 TIME:2018-10-6 00:50:27
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:51:36
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined-- undefined TIME:2018-10-6 00:51:41
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:51:41
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 55555 - code:700 TIME:2018-10-6 00:51:41
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:52:35
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 00:52:37
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:52:37
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 55555 - code:700 TIME:2018-10-6 00:52:37
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:53:42
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 00:53:48
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 00:53:48
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:53:48
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 55555 - code:700 TIME:2018-10-6 00:53:48
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:54:58
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 00:55:00
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 00:55:00
+Error - c-5c-5c-5c-5-- undefined TIME:2018-10-6 00:55:00
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:584a5ee52b9a2e16987e35a083534e504f69f0dc IP:::1 - TRY TO CHANGE DEVICE_ID FROM :584a5ee52b9a2e16987e35a083534e504f69f0dc TO: 55555 - code:700 TIME:2018-10-6 00:55:00
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:56:37
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 00:56:39
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 00:56:39
+Error - c-8c-4c-ac-5-- undefined TIME:2018-10-6 00:56:39
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 00:58:09
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 00:58:12
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 00:58:12
+Error - c-8c-4c-ac-5-- undefined TIME:2018-10-6 00:58:12
+CreticalError - deviceIDDD584a5ee52b9a2e16987e35a083534e504f69f0dc--undefined TIME:2018-10-6 00:58:12
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId =? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 00:58:12
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST584a5ee52b9a2e16987e35a083534e504f69f0dc NEW - 7cd491f04b71876e6fd46623be3577f6cfb0c2ad TIME:2018-10-6 00:58:12
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"7cd491f04b71876e6fd46623be3577f6cfb0c2ad"} TIME:2018-10-6 00:58:12
+Info - users.js --REMOVE DEVICE_ID - 7cd491f04b71876e6fd46623be3577f6cfb0c2ad TIME:2018-10-6 00:58:37
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=7cd491f04b71876e6fd46623be3577f6cfb0c2ad-- undefined TIME:2018-10-6 00:58:37
+Error - c-cc-dc-4c-9-- undefined TIME:2018-10-6 00:58:37
+CreticalError - deviceIDDD7cd491f04b71876e6fd46623be3577f6cfb0c2ad--undefined TIME:2018-10-6 00:58:37
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId =? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 00:58:37
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST7cd491f04b71876e6fd46623be3577f6cfb0c2ad NEW - ad6b5bb085bf6b27de9a1e9fbfa93b641ffc7a7d TIME:2018-10-6 00:58:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"ad6b5bb085bf6b27de9a1e9fbfa93b641ffc7a7d"} TIME:2018-10-6 00:58:37
+Info - users.js --REMOVE DEVICE_ID - 7cd491f04b71876e6fd46623be3577f6cfb0c2ad TIME:2018-10-6 01:05:12
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=7cd491f04b71876e6fd46623be3577f6cfb0c2ad-- undefined TIME:2018-10-6 01:05:12
+Error - c-cc-dc-4c-9-- undefined TIME:2018-10-6 01:05:12
+CreticalError - deviceIDDD7cd491f04b71876e6fd46623be3577f6cfb0c2ad--undefined TIME:2018-10-6 01:05:12
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId =? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:05:12
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST7cd491f04b71876e6fd46623be3577f6cfb0c2ad NEW - 1ed93d3c6c0eda80e3bd5d60dea81f501d36c400 TIME:2018-10-6 01:05:12
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"1ed93d3c6c0eda80e3bd5d60dea81f501d36c400"} TIME:2018-10-6 01:05:12
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:05:15
+Info - users.js --REMOVE DEVICE_ID - 7cd491f04b71876e6fd46623be3577f6cfb0c2ad TIME:2018-10-6 01:05:18
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=7cd491f04b71876e6fd46623be3577f6cfb0c2ad-- undefined TIME:2018-10-6 01:05:18
+Error - c-cc-dc-4c-9-- undefined TIME:2018-10-6 01:05:18
+CreticalError - deviceIDDD7cd491f04b71876e6fd46623be3577f6cfb0c2ad--undefined TIME:2018-10-6 01:05:18
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId =? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:05:18
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7cd491f04b71876e6fd46623be3577f6cfb0c2ad - code:701 TIME:2018-10-6 01:05:18
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:06:42
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '584a5ee52b9a2e16987e35a083534e504f69f0dc' TIME:2018-10-6 01:06:53
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '584a5ee52b9a2e16987e35a083534e504f69f0dc' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-6 01:06:53
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '7cd491f04b71876e6fd46623be3577f6cfb0c2ad' TIME:2018-10-6 01:07:13
+Warning - 541590 --- 432000000--undefined TIME:2018-10-6 01:07:13
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"a4d6fe2e3f42d87e958e3c363f578e8df9bd1872"} TIME:2018-10-6 01:07:13
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '7cd491f04b71876e6fd46623be3577f6cfb0c2ad' TIME:2018-10-6 01:07:36
+Warning - 518964146 --- 432000000--undefined TIME:2018-10-6 01:07:36
+CreticalError - deviceIDDD7cd491f04b71876e6fd46623be3577f6cfb0c2ad--undefined TIME:2018-10-6 01:07:36
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:07:36
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:07:36
+Info - users.js --REMOVE DEVICE_ID - 7cd491f04b71876e6fd46623be3577f6cfb0c2ad TIME:2018-10-6 01:07:36
+Info - users.js --REMOVE DEVICE_ID - 584a5ee52b9a2e16987e35a083534e504f69f0dc TIME:2018-10-6 01:08:15
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=584a5ee52b9a2e16987e35a083534e504f69f0dc-- undefined TIME:2018-10-6 01:08:15
+Error - c-8c-4c-ac-5-- undefined TIME:2018-10-6 01:08:15
+CreticalError - deviceIDDD584a5ee52b9a2e16987e35a083534e504f69f0dc--undefined TIME:2018-10-6 01:08:15
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:08:15
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 584a5ee52b9a2e16987e35a083534e504f69f0dc - code:701 TIME:2018-10-6 01:08:15
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-6 01:09:28
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-6 01:09:28
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"8190053268115e48ce1d0de23ca1b017fa2ba92d","agreementId":"0b6db53a65058e63b1c5df776fbacad89cd06ee6","questionStage":"1","languageId":"1"} TIME:2018-10-6 01:09:28
+Info - users.js --REMOVE DEVICE_ID - 8190053268115e48ce1d0de23ca1b017fa2ba92d TIME:2018-10-6 01:09:45
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=8190053268115e48ce1d0de23ca1b017fa2ba92d-- undefined TIME:2018-10-6 01:09:45
+Error - c-1c-9c-0c-0-- undefined TIME:2018-10-6 01:09:45
+CreticalError - deviceIDDD8190053268115e48ce1d0de23ca1b017fa2ba92d--undefined TIME:2018-10-6 01:09:45
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:09:45
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 8190053268115e48ce1d0de23ca1b017fa2ba92d - code:701 TIME:2018-10-6 01:09:45
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '8190053268115e48ce1d0de23ca1b017fa2ba92d' TIME:2018-10-6 01:10:08
+Warning - 518440994 --- 432000000--undefined TIME:2018-10-6 01:10:08
+CreticalError - deviceIDDD8190053268115e48ce1d0de23ca1b017fa2ba92d--undefined TIME:2018-10-6 01:10:08
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:10:08
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:10:08
+Info - users.js --REMOVE DEVICE_ID - 8190053268115e48ce1d0de23ca1b017fa2ba92d TIME:2018-10-6 01:10:08
+Info - users.js --REMOVE DEVICE_ID - 8190053268115e48ce1d0de23ca1b017fa2ba92d TIME:2018-10-6 01:10:23
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=8190053268115e48ce1d0de23ca1b017fa2ba92d-- undefined TIME:2018-10-6 01:10:23
+Error - c-1c-9c-0c-0-- undefined TIME:2018-10-6 01:10:23
+CreticalError - deviceIDDD8190053268115e48ce1d0de23ca1b017fa2ba92d--undefined TIME:2018-10-6 01:10:23
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:10:23
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 8190053268115e48ce1d0de23ca1b017fa2ba92d - code:701 TIME:2018-10-6 01:10:23
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:11:37
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-6 01:13:11
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-6 01:13:11
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0","agreementId":"87f9ab1f838e9008dcd03c2e80b22774ff0ea32f","questionStage":"1","languageId":"1"} TIME:2018-10-6 01:13:11
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0' TIME:2018-10-6 01:13:36
+Warning - 518425624 --- 432000000--undefined TIME:2018-10-6 01:13:36
+CreticalError - deviceIDDD37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0--undefined TIME:2018-10-6 01:13:36
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:13:36
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:13:36
+Info - users.js --REMOVE DEVICE_ID - 37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0 TIME:2018-10-6 01:13:36
+Info - users.js --REMOVE DEVICE_ID - 37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0 TIME:2018-10-6 01:14:05
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0-- undefined TIME:2018-10-6 01:14:05
+Error - c-7c-dc-ac-6-- undefined TIME:2018-10-6 01:14:05
+CreticalError - deviceIDDD37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0--undefined TIME:2018-10-6 01:14:05
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:14:05
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 37da67e3a8ddf82e6c2bdd42cd1f13e70a029fd0 - code:701 TIME:2018-10-6 01:14:05
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:16:40
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '065c1d23044168a491f0b43587f5b7fd5c708824' TIME:2018-10-6 01:17:15
+Warning - 518590382 --- 432000000--undefined TIME:2018-10-6 01:17:15
+CreticalError - deviceIDDD065c1d23044168a491f0b43587f5b7fd5c708824--undefined TIME:2018-10-6 01:17:15
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:17:15
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:17:15
+Info - users.js --REMOVE DEVICE_ID - 065c1d23044168a491f0b43587f5b7fd5c708824 TIME:2018-10-6 01:17:15
+Info - users.js --REMOVE DEVICE_ID - 065c1d23044168a491f0b43587f5b7fd5c708824 TIME:2018-10-6 01:17:28
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=065c1d23044168a491f0b43587f5b7fd5c708824-- undefined TIME:2018-10-6 01:17:28
+Error - c-6c-5c-cc-1-- undefined TIME:2018-10-6 01:17:28
+CreticalError - deviceIDDD065c1d23044168a491f0b43587f5b7fd5c708824--undefined TIME:2018-10-6 01:17:28
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:17:28
+Info - users.js --RESULT:undefined TIME:2018-10-6 01:17:28
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 065c1d23044168a491f0b43587f5b7fd5c708824 - code:701 TIME:2018-10-6 01:17:28
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:18:28
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '065c1d23044168a491f0b43587f5b7fd5c708824' TIME:2018-10-6 01:18:42
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '065c1d23044168a491f0b43587f5b7fd5c708824' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-6 01:18:42
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = 'e146f00308e3452e196ee77c7dbe5343274c1d7d' TIME:2018-10-6 01:18:57
+Warning - 89893 --- 432000000--undefined TIME:2018-10-6 01:18:57
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"87f9ab1f838e9008dcd03c2e80b22774ff0ea32f"} TIME:2018-10-6 01:18:57
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = 'e146f00308e3452e196ee77c7dbe5343274c1d7d' TIME:2018-10-6 01:19:16
+Warning - 518508893 --- 432000000--undefined TIME:2018-10-6 01:19:16
+CreticalError - deviceIDDDe146f00308e3452e196ee77c7dbe5343274c1d7d--undefined TIME:2018-10-6 01:19:16
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:19:16
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:19:16
+Info - users.js --REMOVE DEVICE_ID - e146f00308e3452e196ee77c7dbe5343274c1d7d TIME:2018-10-6 01:19:16
+Info - users.js --REMOVE DEVICE_ID - e146f00308e3452e196ee77c7dbe5343274c1d7d TIME:2018-10-6 01:19:30
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=e146f00308e3452e196ee77c7dbe5343274c1d7d-- undefined TIME:2018-10-6 01:19:30
+Error - c-1c-4c-6c-f-- undefined TIME:2018-10-6 01:19:30
+CreticalError - deviceIDDDe146f00308e3452e196ee77c7dbe5343274c1d7d--undefined TIME:2018-10-6 01:19:30
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:19:30
+Info - users.js --REMOVE LAST_DEVICE_ID - LASTe146f00308e3452e196ee77c7dbe5343274c1d7d NEW - 5417fdc9ef0d1c26eac886c90e08920e1238bed7 TIME:2018-10-6 01:19:30
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"5417fdc9ef0d1c26eac886c90e08920e1238bed7"} TIME:2018-10-6 01:19:30
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '5417fdc9ef0d1c26eac886c90e08920e1238bed7' TIME:2018-10-6 01:19:40
+Warning - 10008 --- 432000000--undefined TIME:2018-10-6 01:19:40
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"87f9ab1f838e9008dcd03c2e80b22774ff0ea32f"} TIME:2018-10-6 01:19:40
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:25:11
+Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-6 01:25:32
+Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-6 01:25:32
+Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {a06852bfdf0f95fdd17dbe757c7d1d50b40dcf71,2,a,a} TIME:2018-10-6 01:25:32
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:25:57
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-6 01:26:00
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-6 01:26:00
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"ecf549aedce561eb89fe22fce710666464555a3c","agreementId":"5df3dc86b2f628e7e88c3b879fcf01dc09b30256","questionStage":"1","languageId":"1"} TIME:2018-10-6 01:26:00
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:26:15
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:26:27
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:26:30
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:28:00
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:28:04
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:30:07
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:30:09
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:30:09
+Info - users.js --DEVICE_ID:ecf549aedce561eb89fe22fce710666464555a3c AGREEMENT_ID:5df3dc86b2f628e7e88c3b879fcf01dc09b30256 USER FOUND 1 TIME:2018-10-6 01:30:09
+Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-6 01:30:09
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"a06852bfdf0f95fdd17dbe757c7d1d50b40dcf71"} TIME:2018-10-6 01:30:09
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:34:56
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:34:59
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:34:59
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:35:52
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:35:55
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:35:55
+Warning - 595724 --- 432000000--undefined TIME:2018-10-6 01:35:55
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:36:38
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:36:40
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:36:40
+Warning - 640384 --- 432000000--undefined TIME:2018-10-6 01:36:40
+Info - users.js --DEVICE_ID:ecf549aedce561eb89fe22fce710666464555a3c AGREEMENT_ID:5df3dc86b2f628e7e88c3b879fcf01dc09b30256 USER FOUND 1 TIME:2018-10-6 01:36:40
+Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-6 01:36:40
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"a06852bfdf0f95fdd17dbe757c7d1d50b40dcf71"} TIME:2018-10-6 01:36:40
+Warning - Sdfsdfsdfsdf--bla ecf549aedce561eb89fe22fce710666464555a3c 5df3dc86b2f628e7e88c3b879fcf01dc09b30256 TIME:2018-10-6 01:37:00
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:37:00
+Warning - 519060404 --- 432000000--undefined TIME:2018-10-6 01:37:00
+CreticalError - deviceIDDDecf549aedce561eb89fe22fce710666464555a3c--undefined TIME:2018-10-6 01:37:00
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:37:00
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:37:00
+Info - users.js --REMOVE DEVICE_ID - ecf549aedce561eb89fe22fce710666464555a3c TIME:2018-10-6 01:37:00
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:52:25
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:52:51
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-6 01:52:51
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-6 01:52:51
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-6 01:53:06
+Info - GameConfigData.js --start config game TIME:2018-10-6 01:53:06
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-6 01:53:06
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-6 01:53:06
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:53:06
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-6 01:53:06
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-6 01:53:06
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-6 01:53:06
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-6 01:53:06
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-6 01:53:06
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-6 01:53:06
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-6 01:53:06
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-6 01:53:06
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-6 01:53:06
+Info - GameCreateQuestionStageTable.js --Connected! TIME:2018-10-6 01:53:06
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-6 01:53:06
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-6 01:53:06
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:53:40
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:55:32
+Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-6 01:55:35
+Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-6 01:55:35
+Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {d954b7adaedf306a724ddf027e0ecc0b019b4233,2,a,a} TIME:2018-10-6 01:55:35
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:55:53
+Warning - users.js --1 - 1,1 - 1 TIME:2018-10-6 01:55:57
+Error - users.js -- SQL :SELECT * FROM language lan INNER JOIN question_stage st WHERE lan.languageId = 1 AND st.questionStageId =1 TIME:2018-10-6 01:55:57
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"22e79837be577fb4f6f8c0862abe56e70f7e374f","agreementId":"3b31c02d185dee9eb78bec2e3fe39b6691c53542","questionStage":"1","languageId":"1"} TIME:2018-10-6 01:55:57
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '22e79837be577fb4f6f8c0862abe56e70f7e374f' TIME:2018-10-6 01:56:09
+Warning - 12782 --- 432000000--undefined TIME:2018-10-6 01:56:09
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"3b31c02d185dee9eb78bec2e3fe39b6691c53542"} TIME:2018-10-6 01:56:09
+Info - GameDb.js --get TEST database connection TIME:2018-10-6 01:57:03
+Warning - users.js --NaNSELECT * From users WHERE deviceId = ? AND agreementId = ? TIME:2018-10-6 01:57:05
+Warning - 68505 --- 432000000--undefined TIME:2018-10-6 01:57:05
+Info - users.js --DEVICE_ID:22e79837be577fb4f6f8c0862abe56e70f7e374f AGREEMENT_ID:3b31c02d185dee9eb78bec2e3fe39b6691c53542 USER FOUND 1 TIME:2018-10-6 01:57:05
+Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-6 01:57:05
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"d954b7adaedf306a724ddf027e0ecc0b019b4233"} TIME:2018-10-6 01:57:05
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '22e79837be577fb4f6f8c0862abe56e70f7e374f' TIME:2018-10-6 01:57:11
+Warning - 74100 --- 432000000--undefined TIME:2018-10-6 01:57:11
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"3b31c02d185dee9eb78bec2e3fe39b6691c53542"} TIME:2018-10-6 01:57:11
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = '22e79837be577fb4f6f8c0862abe56e70f7e374f' TIME:2018-10-6 01:57:37
+Warning - 518500752 --- 432000000--undefined TIME:2018-10-6 01:57:37
+CreticalError - deviceIDDD22e79837be577fb4f6f8c0862abe56e70f7e374f--undefined TIME:2018-10-6 01:57:37
+CreticalError - sql-UPDATE users SET deviceId = ? , lastDeviceId = ? WHERE deviceId = ?--undefined TIME:2018-10-6 01:57:37
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-6 01:57:37
+Info - users.js --REMOVE DEVICE_ID - 22e79837be577fb4f6f8c0862abe56e70f7e374f TIME:2018-10-6 01:57:37
+Info - users.js --REMOVE DEVICE_ID - 22e79837be577fb4f6f8c0862abe56e70f7e374f TIME:2018-10-6 01:57:51
+Error - a-1,2,3,4,5a-undefineda-undefineda-undefined text=22e79837be577fb4f6f8c0862abe56e70f7e374f-- undefined TIME:2018-10-6 01:57:51
+Error - c-2c-ec-7c-9-- undefined TIME:2018-10-6 01:57:51
+CreticalError - deviceIDDD22e79837be577fb4f6f8c0862abe56e70f7e374f--undefined TIME:2018-10-6 01:57:51
+CreticalError - sql-UPDATE users SET deviceId = ?,lastDeviceId = ?,lastConnection = ? WHERE lastDeviceId = ?--undefined TIME:2018-10-6 01:57:51
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST22e79837be577fb4f6f8c0862abe56e70f7e374f NEW - ca43e6df4da25bc8dd4f8c47e8349dd142f3e761 TIME:2018-10-6 01:57:51
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"ca43e6df4da25bc8dd4f8c47e8349dd142f3e761"} TIME:2018-10-6 01:57:51
+Error - users.js -- SQL :Select agreementId,lastConnection From users WHERE deviceId = 'ca43e6df4da25bc8dd4f8c47e8349dd142f3e761' TIME:2018-10-6 01:57:58
+Warning - 6326 --- 432000000--undefined TIME:2018-10-6 01:57:58
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"3b31c02d185dee9eb78bec2e3fe39b6691c53542"} TIME:2018-10-6 01:57:58

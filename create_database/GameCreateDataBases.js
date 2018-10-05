@@ -1,5 +1,3 @@
-
-
 var path = require("path");
 var TAG = path.basename(__filename);
 var mysql = require('mysql');
@@ -8,7 +6,7 @@ var logger = require('./../logger/GameLogger');
 
 if(config.getEnvironment())
 {
-	logger.logI(TAG ,"TEST database connection ");
+	logger.I(TAG ,"TEST database connection ");
 	var con = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
@@ -18,7 +16,7 @@ if(config.getEnvironment())
 }
 else
 {
-	logger.logI(TAG ,"PROD database connection ");
+	logger.I(TAG ,"PROD database connection ");
 	var con = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
@@ -37,7 +35,7 @@ module.exports.createDataBase =  function () {
 		}
 		else
 		{
-			logger.logI(TAG ,"DataBase Connect");
+			logger.I(TAG ,"DataBase Connect");
 			con.query("CREATE DATABASE "+databaseName, function (err, result) {
 				if (err)
 				{
@@ -47,7 +45,7 @@ module.exports.createDataBase =  function () {
 				}
 				else
 				{
-					logger.logI(TAG ,"Database " +databaseName+  " created");
+					logger.I(TAG ,"Database " +databaseName+  " created");
 					con.end();
 					createAllTables();
 				}
@@ -100,7 +98,12 @@ function createSubSubjectTable()
 function createUserAnswerTable()
 {
 	var userAnswerTable = require('./GameCreateUserAnswerTable');
-	userAnswerTable.createUserAnswerTable();
+	userAnswerTable.createUserAnswerTable(function(){createQuestionStageTable()});
+}
+function createQuestionStageTable()
+{
+	var questionStageTable = require('./GameCreateQuestionStageTable');
+	questionStageTable.createquestionStageTable();
 }
 
 

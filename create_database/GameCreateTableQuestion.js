@@ -7,8 +7,8 @@ var TableName = "question";
 
 module.exports.createQuestionTable = function (callback) {
 
-			logger.logI(TAG ,"Connected!");
-			var sql = "CREATE TABLE "+TableName+" (questionId VARCHAR(255), subsubjectId VARCHAR(255), questionConnectId INT, answer INT, diffeculty INT, time INT,point INT);";
+			logger.I(TAG ,"Connected!");
+			var sql = "CREATE TABLE "+TableName+" (questionId VARCHAR(255), subsubjectId VARCHAR(255), questionConnectId INT,questionStageId INT, answer INT, diffeculty INT, time INT,point INT);";
 			con.query(sql, function (err, result) {
 				if (err)
 				{
@@ -17,7 +17,7 @@ module.exports.createQuestionTable = function (callback) {
 				} 
 				else
 				{
-					logger.logI(TAG ,TableName+" Table created");
+					logger.I(TAG ,TableName+" Table created");
 				}
 				callback();
 			});

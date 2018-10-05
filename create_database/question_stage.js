@@ -3,12 +3,12 @@ var TAG = path.basename(__filename+" ");
 var mysql = require('mysql');
 var con = require('./GameDb');
 var logger = require('./../logger/GameLogger');
-var TableName = "language";
+var TableName = "question_stage";
 
-module.exports.createLanguageTable = function (callback) {
+module.exports.createquestionStageTable = function (callback) {
 
 	logger.I(TAG ,"Connected!");
-	var sql = "CREATE TABLE "+TableName+" (languageId VARCHAR(255), language_description VARCHAR(255));";
+	var sql = "CREATE TABLE "+TableName+" (questionStageId INT, questionStageHebrewDesctiption VARCHAR(255),questionStageEnglishDesctiption VARCHAR(255));";
 	con.query(sql, function (err, result) {
 		if (err)
 		{
@@ -22,9 +22,9 @@ module.exports.createLanguageTable = function (callback) {
 
 
 	var values = [];
-	values.push([1,"hebrew"],[2,"english"]);
+	values.push([1,"ילד","children"],[2,"מבוגר","adult"],[3,"חוכנת חיים","Wisdom"]);
 	
-	var sql = "INSERT INTO "+TableName+" (languageId , language_description) VALUES ?;";
+	var sql = "INSERT INTO "+TableName+" (questionStageId , questionStageHebrewDesctiption,questionStageEnglishDesctiption) VALUES ?;";
 	con.query(sql,[values], function (err, result) {
 		if (err)
 		{
@@ -32,7 +32,7 @@ module.exports.createLanguageTable = function (callback) {
 			logger.logE(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
 			responseHandler.setResponseFaild(response,err,code);
 		} 
-		logger.I(TAG ,"hebrew and english insert");
+		logger.I(TAG ,"question_stage hebrew and english insert");
 		if(callback!=null)
 		{
 			callback();
@@ -43,4 +43,4 @@ module.exports.createLanguageTable = function (callback) {
 
 
 	});
-};
+}

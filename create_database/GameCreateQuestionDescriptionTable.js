@@ -7,7 +7,7 @@ var TableName = "question_description";
 
 module.exports.createQuestionDescriptionTable = function (callback) {
 
-	logger.logI(TAG ,"Connected!");
+	logger.I(TAG ,"Connected!");
 	var sql = "CREATE TABLE "+TableName+" (questionId VARCHAR(255), languageId VARCHAR(255), question_description VARCHAR(255), answer_description VARCHAR(255));";
 	con.query(sql, function (err, result) {
 		if (err)
@@ -17,7 +17,7 @@ module.exports.createQuestionDescriptionTable = function (callback) {
 		} 
 		else
 		{
-			logger.logI(TAG ,TableName+" Table created");
+			logger.I(TAG ,TableName+" Table created");
 		}
 
 		if(callback!=null)

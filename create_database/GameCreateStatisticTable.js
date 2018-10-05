@@ -7,7 +7,7 @@ var TableName = "statistic";
 
 module.exports.createStatisticTable = function (callback) {
 
-			logger.logE(TAG ,"Connected!");
+			logger.I(TAG ,"Connected!");
 			var sql = "CREATE TABLE "+TableName+" (agreementId VARCHAR(255), right_answer VARCHAR(255), wrong_answer VARCHAR(255), point VARCHAR(255));";
 			con.query(sql, function (err, result) {
 				if (err)
@@ -17,7 +17,7 @@ module.exports.createStatisticTable = function (callback) {
 				} 
 				else
 				{
-					logger.logI(TAG ,TableName+" Table created");
+					logger.I(TAG ,TableName+" Table created");
 				}
 				callback();
 			});
