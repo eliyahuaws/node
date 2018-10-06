@@ -12,7 +12,7 @@ module.exports.createUserAnswerTable = function (callback) {
 	con.query(sql, function (err, result) {
 		if (err)
 		{
-			logger.logE(TAG, err);
+			logger.E(TAG, err);
 
 		} 
 		else

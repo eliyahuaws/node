@@ -12,7 +12,7 @@ module.exports.createSubSubjectTable = function (callback) {
 	con.query(sql, function (err, result) {
 		if (err)
 		{
-			logger.logE(TAG, err);
+			logger.E(TAG, err);
 
 		} 
 		else
@@ -28,7 +28,7 @@ module.exports.createSubSubjectTable = function (callback) {
 	con.query(sql,[values], function (err, result) {
 		if (err)
 		{
-		logger.logE(TAG, err);
+		logger.E(TAG, err);
 		} 
 		logger.I(TAG ,"hebrew and english insert "+values);
 		if(callback!=null)

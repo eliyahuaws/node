@@ -30,7 +30,7 @@ module.exports.createDataBase =  function () {
 	con.connect(function(err) {
 		if (err)
 		{
-			logger.logE(TAG , err);
+			logger.E(TAG , err);
 			con.end();
 		}
 		else
@@ -39,7 +39,7 @@ module.exports.createDataBase =  function () {
 			con.query("CREATE DATABASE "+databaseName, function (err, result) {
 				if (err)
 				{
-					logger.logE(TAG  , err);
+					logger.E(TAG  , err);
 					con.end();
 					createAllTables();
 				}
@@ -103,9 +103,19 @@ function createUserAnswerTable()
 function createQuestionStageTable()
 {
 	var questionStageTable = require('./GameCreateQuestionStageTable');
-	questionStageTable.createquestionStageTable();
+	questionStageTable.createquestionStageTable(function(){createVersionTable()});
 }
 
+function createVersionTable()
+{
+	var createVersionTable = require('./GameCreateVersionTable');
+	createVersionTable.createQuestionTable(function(){createUserQuestionTable()});
+}
+function createUserQuestionTable()
+{
+		var createUserQuestionTable = require('./GameCreateUserQuestionTable');
+	createUserQuestionTable.createUserQuestionTable();
+}
 
 
 

@@ -39,11 +39,11 @@ module.exports.V1_getQuestion = function (response,deviceId,agreementId,ip) {
 			{
 				if(result!=null && result.length >0)
 				{
-					var jsonResponse = {};
-					jsonResponse.status = "ok";
-					jsonResponse.questionId = result[0].questionId;
-					responseHandler.setResponseOk(response,jsonResponse);
-
+					inserIntoUserQuestion(result,agreement,"android","1",response);
+					// var jsonResponse = {};
+					// jsonResponse.status = "ok";
+					// jsonResponse.questionId = result[0].questionId;
+					// responseHandler.setResponseOk(response,jsonResponse);
 				}
 				else
 				{
@@ -57,7 +57,55 @@ module.exports.V1_getQuestion = function (response,deviceId,agreementId,ip) {
 };
 
 
+function inserIntoUserQuestion(resultQuestion,agreementId,platform,clientVersion,response)
+{
 
+	var current_date = (new Date()).valueOf().toString();
+	var random = Math.random().toString();	
+	var userQuestionId = crypto.createHash('sha1').update(current_date + random).digest('hex');
+
+	var sqlSelect = "SELECT encrypt from version WHERE platformName = ? AND clientVersion = ?";
+	con.query(sqlSelect,[platform,clientVersion], function (err, result) {
+		if(err || result==null || result.length==0)
+		{
+				var code = 100;
+				err = "CANNOT FIND PLATFORM AND VERSION "+ platform + " " + clientVersion + " " + err;
+				responseHandler.setResponseFaild(response,err,code);
+		}
+		else
+		{
+			var encrypt = result[0].encrypt;
+			var outEncrypt = Math.floor((Math.random() * 9999999) + 1000000);
+			var extraPoint = 0;
+			var point = resultQuestion[0].point;
+			var questionId = resultQuestion[0].questionId;
+				var values = [];
+			values.push([userQuestionId,agreementId,encrypt,questionId,point,0,outEncrypt]);
+			var sql = "INSERT INTO user_question (user_questionId ,agreementId ,encrypt,questionId,point,extraPoint,outEncrypt) VALUES ?;";
+			con.query(sql,[values],function(err,result){
+					if(err || result.affectedRows==0)
+					{
+							var code = 100;
+							err = "CANNOT INSERT USER QUESTION "+ err;
+							responseHandler.setResponseFaild(response,err,code);
+					}
+					else
+					{
+						var jsonResponse = {};
+						jsonResponse.status = "ok";
+						jsonResponse.questionId = questionId;
+						responseHandler.setResponseOk(response,jsonResponse);
+					}
+
+			});
+
+		}
+	});
+
+
+
+	
+}
 
 
 

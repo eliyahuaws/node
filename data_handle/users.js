@@ -59,7 +59,7 @@ module.exports.V1_createUser = function (response,nickName,languageId,questionSt
 			else
 			{
 				var code = 400;
-				var err = "DEVICE_ID:"+device +" IP:"+ ip +" "+ "Not a valid stage and language");
+				var err = "DEVICE_ID:"+device +" IP:"+ ip +" Not a valid stage and language";
 				responseHandler.setResponseFaild(response,err,code);
 			}
 		}

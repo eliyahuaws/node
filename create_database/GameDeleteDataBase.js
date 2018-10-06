@@ -8,7 +8,7 @@ var databaseName = "mydb";
 con.connect(function(err) {
 	if (err)
 	{
-		logger.logE(TAG , err);
+		logger.E(TAG , err);
 	}
 	else
 	{
@@ -16,7 +16,7 @@ con.connect(function(err) {
 		var sql = "drop database "+databaseName;
 		con.query(sql, function (err, result) {
 			if (err){
-				logger.logE(TAG, err);
+				logger.E(TAG, err);
 			} 
 			else
 			{

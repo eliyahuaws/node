@@ -12,7 +12,7 @@ module.exports.createLanguageTable = function (callback) {
 	con.query(sql, function (err, result) {
 		if (err)
 		{
-			logger.logE(TAG, err);
+			logger.E(TAG, err);
 
 		} 
 		else
@@ -29,7 +29,7 @@ module.exports.createLanguageTable = function (callback) {
 		if (err)
 		{
 			var code = 100;
-			logger.logE(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
+			logger.E(TAG ,"DEVICE_ID:"+deviceId +" IP:"+ ip +" "+ err);
 			responseHandler.setResponseFaild(response,err,code);
 		} 
 		logger.I(TAG ,"hebrew and english insert");

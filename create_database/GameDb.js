@@ -7,7 +7,6 @@ var config = require('./../config/config.js');
 
 if(config.getEnvironment())
 {
-		logger.I(TAG,"get TEST database connection");
 		var connection = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
@@ -18,7 +17,6 @@ if(config.getEnvironment())
 }
 else
 {
-		logger.I(TAG,"get PROD database connection");
 		var connection = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
