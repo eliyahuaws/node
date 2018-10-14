@@ -1,126 +1,43 @@
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:10:32
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:10:32
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT FIND PLATFORM AND VERSION null - code:100 TIME:2018-10-7 00:10:32
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:14:32
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:14:32
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT FIND PLATFORM AND VERSION android 1 null - code:100 TIME:2018-10-7 00:14:32
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:16:06
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:16:06
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:16:42
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:16:42
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2f6b6a168b4e789099af36daad07137b79fd1f7a'' at line 1 - code:100 TIME:2018-10-7 00:16:42
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:18:13
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:18:13
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''9be341373da3b03e1e2efac9d8bfa5ed1584da8c'' at line 1 - code:100 TIME:2018-10-7 00:18:13
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:19:23
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:19:23
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sdfsdf'' at line 1 - code:100 TIME:2018-10-7 00:19:23
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:20:22
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:20:22
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sdfsdf'' at line 1 - code:100 TIME:2018-10-7 00:20:22
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:20:49
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:20:49
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sdfsdf'' at line 1 - code:100 TIME:2018-10-7 00:20:49
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:21:39
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:21:39
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 1 - code:100 TIME:2018-10-7 00:21:39
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:24:00
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:24:00
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''67fb80c83d63f2df76ae856e1cc2b5fc698de269'' at line 1 - code:100 TIME:2018-10-7 00:24:00
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:24:41
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:24:41
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''57369384741db7b009f1d0c7c4b42b7eb21c063c'' at line 1 - code:100 TIME:2018-10-7 00:24:41
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:26:13
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:26:13
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''930eb791b51e6003d49de5b4eb4112abbab79bce', 'b4ae78df48951ce881b684f9196f97b7a93' at line 1 - code:100 TIME:2018-10-7 00:26:13
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:26:25
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:26:25
-Error - response.js -- RESPONSE:500 - BODY {"massage":"Sql Syntax Error","massageCode":100} CANNOT INSERT USER QUESTION Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''d0c855bc22939d30c0f38e03fd1e4f47b4f084ce', 'b4ae78df48951ce881b684f9196f97b7a93' at line 1 - code:100 TIME:2018-10-7 00:26:25
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:27:13
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:27:13
-Info - users.js --DEVICE_ID:37f0b0b3179d21c23e30e0ea3d21438e1b974a6c AGREEMENT_ID:b4ae78df48951ce881b684f9196f97b7a9323bd4 USER FOUND 1 TIME:2018-10-7 00:28:19
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:28:19
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"ff6ea5f9b0787b3f4a7fe69bf36b4b422870e3c5"} TIME:2018-10-7 00:28:19
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-7 00:31:29
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-7 00:31:29
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-7 00:31:36
-Info - GameConfigData.js --start config game TIME:2018-10-7 00:31:36
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-7 00:31:37
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-7 00:31:37
-Info - GameCreateTableUsers.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateTableUsers.js --users Table created TIME:2018-10-7 00:31:37
-Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-7 00:31:37
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-7 00:31:37
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-7 00:31:37
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-7 00:31:37
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-7 00:31:37
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-7 00:31:37
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-7 00:31:37
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-7 00:31:37
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-7 00:31:37
-Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-7 00:31:37
-Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-7 00:31:37
-Info - GameCreateVersionTable.js --version Table created TIME:2018-10-7 00:31:37
-Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-10-7 00:31:37
-Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-10-7 00:31:37
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:32:12
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:32:12
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {64cce6ea200a7f6e315c01402cdc78fbcc2d5db9,2,a,a} TIME:2018-10-7 00:32:12
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:32:19
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:32:19
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {bd5835b692f1907c427857aafd2cb9e3c0477d18,2,b,b} TIME:2018-10-7 00:32:19
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:32:25
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:32:25
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {d7bdc0cde20fb1ffc77a83a5a6335bd1c8f03b1c,2,c,c} TIME:2018-10-7 00:32:25
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"66d57f1110291b0a5ed633d727f8d499836ba7d4","agreementId":"1d256fa1a93f6aa6e9772c9332fd1ff888fee84f","questionStage":"1","languageId":"1"} TIME:2018-10-7 00:32:37
-Info - users.js --DEVICE_ID:66d57f1110291b0a5ed633d727f8d499836ba7d4 AGREEMENT_ID:1d256fa1a93f6aa6e9772c9332fd1ff888fee84f USER FOUND 1 TIME:2018-10-7 00:33:39
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:33:39
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"d7bdc0cde20fb1ffc77a83a5a6335bd1c8f03b1c"} TIME:2018-10-7 00:33:39
-Info - users.js --DEVICE_ID:66d57f1110291b0a5ed633d727f8d499836ba7d4 AGREEMENT_ID:1d256fa1a93f6aa6e9772c9332fd1ff888fee84f USER FOUND 1 TIME:2018-10-7 00:34:55
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:34:55
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"bd5835b692f1907c427857aafd2cb9e3c0477d18"} TIME:2018-10-7 00:34:55
-Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-7 00:37:39
-Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-7 00:37:39
-Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-7 00:37:45
-Info - GameConfigData.js --start config game TIME:2018-10-7 00:37:45
-Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-7 00:37:45
-Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-7 00:37:45
-Info - GameCreateTableUsers.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateTableUsers.js --users Table created TIME:2018-10-7 00:37:45
-Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-7 00:37:45
-Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-7 00:37:45
-Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-7 00:37:45
-Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-7 00:37:45
-Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-7 00:37:45
-Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-7 00:37:45
-Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-7 00:37:45
-Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-7 00:37:45
-Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-7 00:37:45
-Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-7 00:37:45
-Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-7 00:37:45
-Info - GameCreateVersionTable.js --version Table created TIME:2018-10-7 00:37:45
-Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-10-7 00:37:45
-Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-10-7 00:37:45
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:38:10
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:38:10
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {624d8407be51ffb2873bcce26530f8b110065d7a,2,a,a} TIME:2018-10-7 00:38:10
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:38:16
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:38:16
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {ce9f7d7a6c4db11e0f3d6142dec4ba16c3b957a6,2,b,b} TIME:2018-10-7 00:38:16
-Info - question.js --Insert Question To Question Table - values {undefined} TIME:2018-10-7 00:38:23
-Info - question.js --Insert Question To QuestionDesctiption Table (hebrew) - values {undefined} TIME:2018-10-7 00:38:23
-Info - question.js --Insert Question To QuestionDesctiption Table (english) - values {1ae0d66cb12e880c52a49df407f68de6cb7e0d22,2,d,d} TIME:2018-10-7 00:38:23
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"7b0a2738912f863e7faea904746211d07cb1073f","agreementId":"e0422bca067c4e84fd32671a3acc0c5877bd4a58","questionStage":"1","languageId":"1"} TIME:2018-10-7 00:38:43
-Info - users.js --DEVICE_ID:7b0a2738912f863e7faea904746211d07cb1073f AGREEMENT_ID:e0422bca067c4e84fd32671a3acc0c5877bd4a58 USER FOUND 1 TIME:2018-10-7 00:38:54
-Warning - question.js --SELECT * FROM question qu INNER JOIN question_description qd ON qu.questionId = qd.questionId AND qu.questionStageId = ? INNER JOIN language la ON qd.languageId = la.languageId WHERE la.languageId = ? ORDER BY RAND() LIMIT 1 ---- 1 1 TIME:2018-10-7 00:38:54
-Info - response.js --RESPONDE:200 - BODY{"status":"ok","questionId":"1ae0d66cb12e880c52a49df407f68de6cb7e0d22"} TIME:2018-10-7 00:38:54
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:10:27
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first 7 TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first 8 TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first k TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first f TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first m TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first i TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first f TIME:2018-10-14 22:11:03
+Error - encrypt_decrypt.js -- first l TIME:2018-10-14 22:11:03
+Info - response.js --RESPONDE:200 - BODY{"status":"faild"} TIME:2018-10-14 22:11:03
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first 7 0 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first 8 3 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first k 5 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first f 2 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first m 7 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first i 8 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first f 3 TIME:2018-10-14 22:13:10
+Error - encrypt_decrypt.js -- first l 5 TIME:2018-10-14 22:13:10
+Info - response.js --RESPONDE:200 - BODY{"status":"faild"} TIME:2018-10-14 22:13:10
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first 7 0 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first 8 3 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first k 5 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first f 2 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first m 7 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first i 8 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first f 3 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Error - encrypt_decrypt.js -- first l 5 68885ffeeb365647a3c08c3d0bf4514ba7151b77 TIME:2018-10-14 22:13:35
+Info - response.js --RESPONDE:200 - BODY{"status":"faild"} TIME:2018-10-14 22:13:35
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:14:15
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:14:38
+Warning - encrpt***--78kfmifl 68885ffeeb365647a3c08c3d0bf4514ba7151b77 03527835469 TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- 7 6 TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- 8 8 TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- k f TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- f 8 TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- m e TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- i e TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- f 8 TIME:2018-10-14 22:18:05
+Error - encrypt_decrypt.js -- l f TIME:2018-10-14 22:18:05
+Info - response.js --RESPONDE:200 - BODY{"status":"ok"} TIME:2018-10-14 22:18:05

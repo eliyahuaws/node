@@ -113,9 +113,28 @@ function createVersionTable()
 }
 function createUserQuestionTable()
 {
-		var createUserQuestionTable = require('./GameCreateUserQuestionTable');
-	createUserQuestionTable.createUserQuestionTable();
+	var createUserQuestionTable = require('./GameCreateUserQuestionTable');
+	createUserQuestionTable.createUserQuestionTable(function(){createUserSessionGameTable()});
 }
+function createUserSessionGameTable()
+{
+	var createUserSessionGameTable = require('./GameCreateUserGameSessionTable');
+	createUserSessionGameTable.createUserSessionGameTable();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

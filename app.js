@@ -41,4 +41,17 @@ app.post('/V1/changeDevice',function(request,response){
 	dataHandleUsers.V1_changeDeviceByDate(response,device,change,request.connection.remoteAddress);
 });
 
+app.post('/V1/setQuesion',function(request,response){
+	var jsonRequest = request.body;
+	var fUserQuesionId = con.escape(jsonRequest.userQuesionId).replace(/'/g,"");
+	var fUserGameSessionId = con.escape(jsonRequest.userGameSession).replace(/'/g,"");
+	var fUserQuesionData = con.escape(jsonRequest.userQuesionData).replace(/'/g,"");
+	var fPoint = con.escape(jsonRequest.point).replace(/'/g,"");
+	var fAgremmentId = con.escape(jsonRequest.agreementId).replace(/'/g,"");
+	var fDeviceId = con.escape(jsonRequest.deviceId).replace(/'/g,"");
+	dataHandleQuestions.V1_answerQuesion(response,fUserQuesionId,fUserGameSessionId,fUserQuesionData,fPoint,fAgremmentId,fDeviceId,request.connection.remoteAddress);
+
+});
+
+
 app.listen(3000);

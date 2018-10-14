@@ -39,9 +39,11 @@ function changeEncrypt(n1,n2,callback)
 // eccc c1fd99ead4fc8e048a799c8c9444c068b7ad110e 03527835469
 module.exports.V1_decrypt = function(cryptText,questionId,crypt,callback)
 {
+	logger.W("encrpt***",cryptText + " " + questionId + " " + crypt);
 	var outPut ="";
 	for (var i = 0; i < cryptText.length; i++) {
 			var c = cryptText[i];
+		
 			var t = questionId.charAt(parseInt(crypt[i]));
 			logger.E(TAG,c + " " + t);
 			changeDecrypt(c,t,function(ch){
@@ -72,7 +74,7 @@ function changeDecrypt(c,t,callback)
 // 		var outNumber = parseInt(n) + parseInt(number);
 // 		switchNumberTochar(outNumber,function(outChar){
 // 			if(callback!=null)
-// 			{
+// 	checkif		{
 // 				callback(outChar);
 // 			}
 // 		});
