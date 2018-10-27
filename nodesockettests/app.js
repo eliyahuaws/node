@@ -7,9 +7,9 @@ var app = require('http').createServer(handler)
 var io = require('socket.io')(app);
 
 var fs = require('fs'); //We need fs to call index.html
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
-app.listen(port); //Listening on port 80. change it to 3000 if you have Apache on local machine
+
 
 var dic =  new Map();
 /**
@@ -161,4 +161,7 @@ function parseHtml(currentTime){
 function randomIntInc(low, high) {
   return Math.floor(Math.random() * (high - low + 1) + low)
 }
+
+
+app.listen(port); //Listening on port 80. change it to 3000 if you have Apache on local machine
 
