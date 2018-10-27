@@ -14,21 +14,21 @@ module.exports.setResponseOk = function (response,jsonResponse) {
 
 module.exports.setResponseFaild = function (response,err,code) {
 		var errorResponse = {};
-
-		errorResponse.massage = errorMassage;
-		errorResponse.massageCode = code;
+		errorResponse.status = "500"
+		errorResponse.message = errorMassage;
+		errorResponse.messageCode = code;
 
 		switch(code)
 		{
-			case 100: errorResponse.massage = "Sql Syntax Error"; break;
-			case 101: errorResponse.massage = "User Alrady Exist";break;
-			case 300: errorResponse.massage = "Device Id Not Exist";break;
-			case 400: errorResponse.massage = "Not Valid Params";break;
-			case 401: errorResponse.massage = "User Not Found";break;
-			case 402: errorResponse.massage = "Question Not Found";break;
-			case 700: errorResponse.massage = "Cannot Change Id";break;
-			case 701: errorResponse.massage = "Cannot Change Id";break;
-			case 999: errorResponse.massage = "Something Go Wrong";break;
+			case 100: errorResponse.message = "Sql Syntax Error"; break;
+			case 101: errorResponse.message = "User Alrady Exist";break;
+			case 300: errorResponse.message = "Device Id Not Exist";break;
+			case 400: errorResponse.message = "Not Valid Params";break;
+			case 401: errorResponse.message = "User Not Found";break;
+			case 402: errorResponse.message = "Question Not Found";break;
+			case 700: errorResponse.message = "Cannot Change Id";break;
+			case 701: errorResponse.message = "Cannot Change Id";break;
+			case 999: errorResponse.message = "Something Go Wrong";break;
 
 		}
 

@@ -52,6 +52,7 @@ module.exports.V1_createUser = function (response,nickName,languageId,questionSt
 						jsonResponse.agreementId = agreementId;
 						jsonResponse.questionStage = stage;
 						jsonResponse.languageId = lan;
+						jsonResponse.nickName = nickName;
 						responseHandler.setResponseOk(response,jsonResponse);		
 					}
 				});
@@ -106,15 +107,24 @@ module.exports.V1_getAgreemrntIdByDeviceId= function(response,deviceId,ip)
 		}
 		else
 		{
+
 			try
 			{
-				_this.checkLastConnectionValidation(response,deviceId,TIME_CONNECT_REFRESH, result[0].lastConnection,function(){
-						var jsonResponse = {};
-						jsonResponse.status = "ok";
-						jsonResponse.agreementId = result[0].agreementId;
-						responseHandler.setResponseOk(response,jsonResponse);
-				
-				});
+				if(result.length >0)
+				{
+					_this.checkLastConnectionValidation(response,deviceId,TIME_CONNECT_REFRESH, result[0].lastConnection,function(){
+							var jsonResponse = {};
+							jsonResponse.status = "ok";
+							jsonResponse.agreementId = result[0].agreementId;
+							responseHandler.setResponseOk(response,jsonResponse);
+					
+					});
+				}
+				else
+				{
+					var code = 300;
+					responseHandler.setResponseFaild(response,err,code);
+				}
 			}
 			catch(error)
 			{
@@ -202,6 +212,7 @@ module.exports.V1_changeDeviceByDate = function(response,deviceId,change,ip)
 		case 29 : values.push([1,2, 3,4,5]); break;
 		case 30 : values.push([1,2, 3,4,5]); break;
 		case 30 : values.push([1,2, 3,4,5]); break;
+		case 31 : values.push([1,2, 3,4,5]); break;
  	}
 
 	getCharFromPosition(deviceId,values,function(text){
