@@ -17,6 +17,9 @@ var dic =  new Map();
   var req = the request.
   var res = the result.
  **/
+
+
+  console.log('START APP');
 function handler (req, res) {
   fs.readFile(__dirname + '/index.html', //reading the file
               function (err, data) {  //calback that get fired right after the file was created
