@@ -1,0 +1,13 @@
+{
+	"test_environment_name":"liors-MacBook-Pro.local",
+	"mysql_host":"localhost",
+	"mysql_user":"root",
+	"mysql_socket":"/Applications/MAMP/tmp/mysql/mysql.sock",
+	"database_name":"mydb",
+	"mysql_test_pw":"root",
+	"mysql_production_pw":"eliyahu"
+}
+
+
+
+	

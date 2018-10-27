@@ -1,0 +1,339 @@
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-19 14:42:27
+Info - GameConfigData.js --start config game TIME:2018-10-19 14:42:27
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-19 14:42:27
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-19 14:42:27
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-19 14:42:27
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-19 14:42:27
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-19 14:42:27
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-19 14:42:27
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-19 14:42:27
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-19 14:42:27
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-19 14:42:27
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-19 14:42:27
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-19 14:42:27
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-19 14:42:27
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-19 14:42:27
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-19 14:42:27
+Info - GameCreateVersionTable.js --version Table created TIME:2018-10-19 14:42:27
+Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-10-19 14:42:27
+Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-10-19 14:42:27
+Info - GameCreateUserGameSessionTable.js --game_session Table created TIME:2018-10-19 14:42:27
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"d8c12a79c00a7646394b3ae4ba1e61569c19d631","agreementId":"036d9253afc8e89a16922ed8c24b808ea8b05203","questionStage":"1","languageId":"2"} TIME:2018-10-19 14:42:51
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"c318247c565df0d5ef9fcfb468f76b236bb64c6e","agreementId":"f49a497b1f1cc10381fb62b3bab774fcdb48a0a6","questionStage":"1","languageId":"2","nickName":"lior"} TIME:2018-10-19 14:44:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"37ce8453ddf3a255f4358f83f32c92efdc2eb1b3","agreementId":"b8c255c8bb59f574b1525bfa7d6939e4bcab00db","questionStage":"1","languageId":"2","nickName":"a"} TIME:2018-10-19 14:56:05
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"bfe8dbe6a8ce3fd6bf932c01fa7bbacb2a73dcc1","agreementId":"3d5806a32f775e922ece4bbce352a73e3c5d0100","questionStage":"1","languageId":"2","nickName":"a"} TIME:2018-10-19 15:13:19
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"7d7ec855c181d4633cd5526d1d98fcc4d2a4358a","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef","questionStage":"1","languageId":"2","nickName":"Neta"} TIME:2018-10-19 15:45:21
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"f6f7f7f94dca9ada2b73def1ab8425ef4d021145","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b","questionStage":"1","languageId":"2","nickName":"asd"} TIME:2018-10-19 15:51:14
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:51:29
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:52:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:52:09
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:52:20
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:52:21
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 15:52:43
+Info - users.js --REMOVE DEVICE_ID - f6f7f7f94dca9ada2b73def1ab8425ef4d021145 TIME:2018-10-19 15:52:43
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Cannot Change Id","massageCode":700} DEVICE_ID:f6f7f7f94dca9ada2b73def1ab8425ef4d021145 IP:::1 - TRY TO CHANGE DEVICE_ID FROM :f6f7f7f94dca9ada2b73def1ab8425ef4d021145 TO: 6f7f7 - code:700 TIME:2018-10-19 15:54:00
+Info - users.js --REMOVE LAST_DEVICE_ID - LASTf6f7f7f94dca9ada2b73def1ab8425ef4d021145 NEW - 3b4bd9e980ae934a2483fd7ebf6b8fab18b728df TIME:2018-10-19 15:54:16
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"3b4bd9e980ae934a2483fd7ebf6b8fab18b728df"} TIME:2018-10-19 15:54:16
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:54:32
+Error - response.js -- RESPONSE:500 - BODY {"massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - 'f6f7f7f94dca9ada2b73def1ab8425ef4d021145' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 15:54:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:54:40
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 15:55:11
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:17:05
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Something Go Wrong","massageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:18:03
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:18:03
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"12654c38b49dc90db45215cb93cd172e2505229b"} TIME:2018-10-19 16:18:27
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:18:48
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:19:11
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:19:37
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:20:09
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:24:20
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:28:46
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:33:22
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:34:00
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:34:33
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:34:53
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:37:19
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:38:19
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:39:02
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:39:17
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","massage":"Device Id Not Exist","massageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:39:53
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Server Error","messageCode":300,"massage":"Device Id Not Exist"}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:40:40
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Server Error","messageCode":300,"massage":"Device Id Not Exist"}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:41:13
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:42:00
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:42:01
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:42:03
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:42:23
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:43:01
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:43:02
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:43:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:43:46
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:44:02
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:44:02
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:44:29
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:45:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:46:04
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:46:06
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:46:20
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:46:20
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:47:07
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:47:07
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 16:52:01
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:52:26
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:52:26
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 16:52:26
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:53:49
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:53:49
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 16:53:50
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:54:15
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:54:15
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 16:54:30
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '7d7ec855c181d4633cd5526d1d98fcc4d2a4358a' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-19 16:56:19
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:57:18
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:57:18
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 16:57:28
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 16:59:39
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 16:59:39
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 16:59:41
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 17:01:11
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 17:01:11
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::ffff:127.0.0.1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 17:01:27
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 17:02:59
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":700} DEVICE_ID:7d7ec855c181d4633cd5526d1d98fcc4d2a4358a IP:::1 - TRY TO CHANGE DEVICE_ID FROM :7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TO: d7ec8 - code:700 TIME:2018-10-19 17:03:35
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:04:24
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:04:26
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:05:09
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:05:47
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:05:49
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Cannot Change Id","messageCode":701} TRY TO CHANGE DEVICE WHEN THERE NO LAST_DEVICE_ID, DEVICE_ID: 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a - code:701 TIME:2018-10-19 17:06:11
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 17:06:41
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 17:06:48
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 17:07:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 17:07:10
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-19 17:07:11
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 17:07:55
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 17:07:55
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST7d7ec855c181d4633cd5526d1d98fcc4d2a4358a NEW - cce2ba33e2c12b8cce6c04245538a52b599be246 TIME:2018-10-19 17:08:01
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"cce2ba33e2c12b8cce6c04245538a52b599be246"} TIME:2018-10-19 17:08:01
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Something Go Wrong","messageCode":999} need to refresh deviceId - code:999 TIME:2018-10-19 17:08:50
+Info - users.js --REMOVE DEVICE_ID - 7d7ec855c181d4633cd5526d1d98fcc4d2a4358a TIME:2018-10-19 17:08:50
+Info - users.js --REMOVE LAST_DEVICE_ID - LAST7d7ec855c181d4633cd5526d1d98fcc4d2a4358a NEW - 6b60c6d90ac0d66f321364b1ce10555476b2b4a5 TIME:2018-10-19 17:09:19
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"6b60c6d90ac0d66f321364b1ce10555476b2b4a5"} TIME:2018-10-19 17:09:19
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:32:15
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:34:06
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:34:51
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:36:27
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:37:40
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:39:08
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"c98e22903605af7fb62d9f5e6923421683a8bcef"} TIME:2018-10-20 21:41:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"ba1a5d9c7246c8c362cdc87ce2c0f414ac493802","agreementId":"1fa24c5552cd578c8cddea1c474d6a322c32a925","questionStage":"1","languageId":"2","nickName":"ugug"} TIME:2018-10-20 22:07:47
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Sql Syntax Error","messageCode":100} DEVICE_ID:6b60c6d90ac0d66f321364b1ce10555476b2b4a5 IP:undefined Error: connect ENOENT /Applications/MAMP/tmp/mysql/mysql.sock - code:100 TIME:2018-10-27 11:58:24
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Sql Syntax Error","messageCode":100} DEVICE_ID:6b60c6d90ac0d66f321364b1ce10555476b2b4a5 IP:undefined Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-10-27 11:59:24
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Sql Syntax Error","messageCode":100} DEVICE_ID:6b60c6d90ac0d66f321364b1ce10555476b2b4a5 IP:undefined Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-10-27 12:00:07
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Sql Syntax Error","messageCode":100} DEVICE_ID:6b60c6d90ac0d66f321364b1ce10555476b2b4a5 IP:undefined Error: Cannot enqueue Query after fatal error. - code:100 TIME:2018-10-27 12:00:30
+Info - GameDeleteDataBase.js Database Connected!--undefined TIME:2018-10-27 12:02:52
+Info - GameDeleteDataBase.js --mydb Delete TIME:2018-10-27 12:02:53
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-10-27 12:03:04
+Info - GameConfigData.js --start config game TIME:2018-10-27 12:03:04
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-27 12:03:04
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-27 12:03:04
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-27 12:03:04
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-27 12:03:04
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-27 12:03:04
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-27 12:03:04
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-27 12:03:04
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-27 12:03:04
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-27 12:03:04
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-27 12:03:04
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-27 12:03:04
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-27 12:03:04
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-27 12:03:04
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-27 12:03:04
+Info - GameCreateVersionTable.js --version Table created TIME:2018-10-27 12:03:04
+Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-10-27 12:03:04
+Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-10-27 12:03:04
+Info - GameCreateUserGameSessionTable.js --game_session Table created TIME:2018-10-27 12:03:04
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '6b60c6d90ac0d66f321364b1ce10555476b2b4a5' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-27 12:03:47
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300}  excption - * cannot find device id - '6b60c6d90ac0d66f321364b1ce10555476b2b4a5' * TypeError: Cannot read property 'lastConnection' of undefined - code:300 TIME:2018-10-27 12:05:02
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300} null - code:300 TIME:2018-10-27 12:12:53
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300} null - code:300 TIME:2018-10-27 12:13:38
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300} null - code:300 TIME:2018-10-27 12:14:46
+Error - response.js -- RESPONSE:500 - BODY {"status":"500","message":"Device Id Not Exist","messageCode":300} null - code:300 TIME:2018-10-27 12:16:01
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"e17f844413cbeba947598f438dac57ffcff055b0","agreementId":"1e860b2032029f4d05d5b434488338cba7a4bfc8","questionStage":"1","languageId":"2","nickName":"lior"} TIME:2018-10-27 12:16:23
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"1e860b2032029f4d05d5b434488338cba7a4bfc8"} TIME:2018-10-27 12:16:33
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"1e860b2032029f4d05d5b434488338cba7a4bfc8"} TIME:2018-10-27 12:16:40
+START APP
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement undefined device undefined
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement undefined device undefined
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+new client connected, count AAA= 1540663213609
+new client connected, count BBB= 702
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+new client connected, count AAA= 1540663215093
+new client connected, count BBB= 674
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+new client connected, count AAA= 1540663217070
+new client connected, count BBB= 839
+START APP
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+new client connected, count AAA= 1540663262972
+new client connected, count BBB= 12180
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+new client connected, count AAA= 1540663276585
+new client connected, count BBB= 825
+client left, count = 0
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+START APP
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+START APP
+new client connected, count = 1
+START APP
+START APP
+new client connected, count = 1
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+new client connected, count AAA= 1540664222330
+new client connected, count BBB= 450
+new client connected, count AAA= 1540664222330
+new client connected, count BBB= 3708
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+new client connected, count AAA= 1540664227150
+new client connected, count BBB= 548
+SET= 1fa24c5552cd578c8cddea1c474d6a322c32a925
+agreement 1fa24c5552cd578c8cddea1c474d6a322c32a925 device ba1a5d9c7246c8c362cdc87ce2c0f414ac493802
+new client connected, count AAA= 1540664228715
+new client connected, count BBB= 239
+START APP
+new client connected, count = 1
+new client connected, count AAA= undefined
+new client connected, count BBB= NaN
+client left, count = 0
+new client connected, count = 1
+client left, count = 0
+new client connected, count = 1
+client left, count = 0
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+client left, count = 0
+new client connected, count = 1
+client left, count = 0
+new client connected, count = 1
+START APP
+new client connected, count = 1
+client left, count = 0
+new client connected, count = 1
+client left, count = 0
+new client connected, count = 1
+START APP
+new client connected, count = 1
+Info - app.js --ba1a5d9c7246c8c362cdc87ce2c0f414ac493802 1fa24c5552cd578c8cddea1c474d6a322c32a925 TIME:2018-10-27 21:33:34
+client left, count = 0
+new client connected, count = 1
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 TIME:2018-10-27 21:35:48
+new client connected, count AAA= 1540665348544
+new client connected, count BBB= 3925
+new client connected, count AAA= 1540665348544
+new client connected, count BBB= 5870
+new client connected, count AAA= 1540665348544
+new client connected, count BBB= 6937
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 TIME:2018-10-27 21:35:57
+new client connected, count AAA= 1540665357181
+new client connected, count BBB= 385
+new client connected, count AAA= 1540665357181
+new client connected, count BBB= 1242
+new client connected, count AAA= 1540665357181
+new client connected, count BBB= 2053
+new client connected, count AAA= 1540665357181
+new client connected, count BBB= 3280
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 TIME:2018-10-27 21:36:01
+new client connected, count AAA= 1540665361071
+new client connected, count BBB= 466
+new client connected, count AAA= 1540665361071
+new client connected, count BBB= 1125
+new client connected, count AAA= 1540665361071
+new client connected, count BBB= 1479
+new client connected, count AAA= 1540665361071
+new client connected, count BBB= 1843
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 TIME:2018-10-27 21:36:03
+new client connected, count AAA= 1540665363211
+new client connected, count BBB= 344
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+START APP
+new client connected, count = 1
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 1540666519010 TIME:2018-10-27 21:55:19
+START APP
+new client connected, count = 1
+Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 **************** 1540666559238 TIME:2018-10-27 21:55:59
