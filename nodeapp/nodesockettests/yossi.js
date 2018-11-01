@@ -61,7 +61,7 @@ io.sockets.on('connect', function(socket) {
 
 
   socket.on('disconnect', function() {
-    console.log('client left, count = ' + countConnectedClients());
+    console.log('client left, count = ');
 
   });
 
