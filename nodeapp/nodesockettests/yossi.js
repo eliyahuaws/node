@@ -85,7 +85,7 @@ io.sockets.on('connect', function(socket) {
 
       
 
-app.listen(3000); //Listening on port 80. change it to 3000 if you have Apache on local machine
+app.listen(8080); //Listening on port 80. change it to 3000 if you have Apache on local machine
 
 
 
