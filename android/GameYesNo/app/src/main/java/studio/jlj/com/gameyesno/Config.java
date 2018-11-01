@@ -21,7 +21,7 @@ public class Config {
                 return "http://10.0.2.2:3000";
             case PROD_DEBUG:
             case PROD_RELEASE:
-                return "http://192.168.1.15:3000";
+                return "http://10.71.7.139:3000";
         }
 
         return null;

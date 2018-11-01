@@ -18,7 +18,7 @@ public class GameApp extends Application {
     private String TAG = "GameApp.class";
     private Socket mSocket;
 //    private static final String URL = "http://10.0.2.2:8080";
-  private static final String URL = "http://192.168.1.15:8080";
+  private static final String URL = "http://10.71.7.139:8080";
 //      private static final String URL = "http://ec2-18-191-197-39.us-east-2.compute.amazonaws.com:8080";
 
     private static EnviromentType SEnviromentType;
@@ -43,7 +43,7 @@ public class GameApp extends Application {
 
         sGameApp = this;
         Logger.Log(0,TAG,"INIT GAME");
-        Config.setEnviromentType(EnviromentType.DEV_DEBUG);
+        Config.setEnviromentType(EnviromentType.PROD_DEBUG);
     }
 
     public static GameApp getInstance()

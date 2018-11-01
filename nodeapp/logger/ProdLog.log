@@ -1,0 +1,43 @@
+START APP
+Info - GameCreateDataBases.js--PROD database connection  TIME:2018-10-28 15:55:56
+Info - GameConfigData.js --start config game TIME:2018-10-28 15:55:56
+Error - GameCreateDataBases.js-- Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client TIME:2018-10-28 15:55:56
+Info - GameCreateDataBases.js--PROD database connection  TIME:2018-10-28 15:57:36
+Info - GameConfigData.js --start config game TIME:2018-10-28 15:57:37
+Error - GameCreateDataBases.js-- Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client TIME:2018-10-28 15:57:37
+Info - GameCreateDataBases.js--PROD database connection  TIME:2018-10-28 16:00:01
+Info - GameConfigData.js --start config game TIME:2018-10-28 16:00:01
+Error - GameCreateDataBases.js-- Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client TIME:2018-10-28 16:00:01
+Info - GameCreateDataBases.js--PROD database connection  TIME:2018-10-28 17:12:58
+Info - GameConfigData.js --start config game TIME:2018-10-28 17:12:58
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-10-28 17:12:58
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-10-28 17:12:58
+Info - GameCreateTableUsers.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateTableUsers.js --users Table created TIME:2018-10-28 17:12:58
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-10-28 17:12:58
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-10-28 17:12:58
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-10-28 17:12:58
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-10-28 17:12:58
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-10-28 17:12:58
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-10-28 17:12:58
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-10-28 17:12:58
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-10-28 17:12:58
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-10-28 17:12:58
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-10-28 17:12:58
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-10-28 17:12:58
+Info - GameCreateVersionTable.js --version Table created TIME:2018-10-28 17:12:58
+Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-10-28 17:12:58
+Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-10-28 17:12:58
+Info - GameCreateUserGameSessionTable.js --game_session Table created TIME:2018-10-28 17:12:58
+Info - GameCreateDataBases.js--PROD database connection  TIME:2018-10-31 17:37:42
+Info - GameConfigData.js --start config game TIME:2018-10-31 17:37:43
+Error - GameCreateDataBases.js-- Error: connect ECONNREFUSED 127.0.0.1:3306 TIME:2018-10-31 17:37:43
+Error - GameDeleteDataBase.js -- Error: connect ECONNREFUSED 127.0.0.1:3306 TIME:2018-10-31 17:55:52
+Error - GameDeleteDataBase.js -- Error: connect ECONNREFUSED 127.0.0.1:3306 TIME:2018-10-31 17:58:49
+Error - GameDeleteDataBase.js -- Error: connect ECONNREFUSED 127.0.0.1:3306 TIME:2018-10-31 18:08:03
+Error - GameDeleteDataBase.js -- Error: connect ECONNREFUSED 127.0.0.1:3306 TIME:2018-11-1 11:44:21

@@ -337,3 +337,184 @@ Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b43
 START APP
 new client connected, count = 1
 Info - app.js --e17f844413cbeba947598f438dac57ffcff055b0 1e860b2032029f4d05d5b434488338cba7a4bfc8 **************** 1540666559238 TIME:2018-10-27 21:55:59
+Error - GameDeleteDataBase.js -- Error: ER_BAD_DB_ERROR: Unknown database 'mydb' TIME:2018-11-1 11:50:46
+Info - GameCreateDataBases.js--TEST database connection  TIME:2018-11-1 11:51:16
+Info - GameConfigData.js --start config game TIME:2018-11-1 11:51:16
+Info - GameCreateDataBases.js--DataBase Connect TIME:2018-11-1 11:51:16
+Info - GameCreateDataBases.js--Database mydb created TIME:2018-11-1 11:51:16
+Info - GameCreateTableUsers.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateTableUsers.js --users Table created TIME:2018-11-1 11:51:16
+Info - GameCreateStatisticTable.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateStatisticTable.js --statistic Table created TIME:2018-11-1 11:51:16
+Info - GameCreateTableQuestion.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateTableQuestion.js --question Table created TIME:2018-11-1 11:51:16
+Info - GameCreateLanguageTable.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateLanguageTable.js --language Table created TIME:2018-11-1 11:51:16
+Info - GameCreateLanguageTable.js --hebrew and english insert TIME:2018-11-1 11:51:16
+Info - GameCreateQuestionDescriptionTable.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateQuestionDescriptionTable.js --question_description Table created TIME:2018-11-1 11:51:16
+Info - GameCreateSubSubjectTable.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateSubSubjectTable.js --sub_subject Table created TIME:2018-11-1 11:51:16
+Info - GameCreateSubSubjectTable.js --hebrew and english insert 1,ספורט,sport,2,מטימטיקה,math TIME:2018-11-1 11:51:16
+Info - GameCreateUserAnswerTable.js --Connected! TIME:2018-11-1 11:51:16
+Info - GameCreateUserAnswerTable.js --user_answer Table created TIME:2018-11-1 11:51:16
+Info - GameCreateQuestionStageTable.js --question_stage Table created TIME:2018-11-1 11:51:16
+Info - GameCreateQuestionStageTable.js --question_stage hebrew and english insert TIME:2018-11-1 11:51:16
+Info - GameCreateVersionTable.js --version Table created TIME:2018-11-1 11:51:16
+Info - GameCreateVersionTable.js --version and encrypt insert TIME:2018-11-1 11:51:16
+Info - GameCreateUserQuestionTable.js --user_question Table created TIME:2018-11-1 11:51:16
+Info - GameCreateUserGameSessionTable.js --game_session Table created TIME:2018-11-1 11:51:16
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"1b6a088f5e5b902d1e09080a82d42acbda6ee951","agreementId":"df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4","questionStage":"1","languageId":"2","nickName":"abc"} TIME:2018-11-1 16:49:21
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4"} TIME:2018-11-1 16:49:37
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4"} TIME:2018-11-1 16:49:48
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","agreementId":"df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4"} TIME:2018-11-1 16:50:23
+START APP
+new client connected, count = 1
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541083971750 TIME:2018-11-1 16:52:51
+new client connected, count AAA= 1541083971763
+new client connected, count BBB= 1819
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541083976969 TIME:2018-11-1 16:52:56
+new client connected, count AAA= 1541083976970
+new client connected, count BBB= 721
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541083978749 TIME:2018-11-1 16:52:58
+new client connected, count AAA= 1541083978750
+new client connected, count BBB= 577
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541083980249 TIME:2018-11-1 16:53:00
+new client connected, count AAA= 1541083980250
+new client connected, count BBB= 333
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541083981533 TIME:2018-11-1 16:53:01
+new client connected, count AAA= 1541083981534
+new client connected, count BBB= 351
+START APP
+new client connected, count = 1 soketIdhNeuK-1dMm-nFTROAAAA
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541084065200 TIME:2018-11-1 16:54:25
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+START APP
+new client connected, count = 1 soketIdbLQJ_4i8RqeNQNX1AAAA
+client left, count = 0
+new client connected, count = 1 soketIdQvNezc6C0RdKfZByAAAB
+Info - response.js --RESPONDE:200 - BODY{"status":"ok","deviceId":"66d09b29a25cda836e2ac9aa19728bb35ddc71a7","agreementId":"2f6ab5d43d25ad075de844b33eadd072298037fc","questionStage":"1","languageId":"2","nickName":"yariv"} TIME:2018-11-1 17:11:07
+START APP
+new client connected, count = 1 soketIdGUn-c3pzqraDUb72AAAA
+client left, count = 0
+new client connected, count = 1 soketIdmHZdNm0f0vUCuo0nAAAB
+new client connected, count = 2 soketIdXm52MnrmrpFcAU3TAAAC
+Info - app.js --66d09b29a25cda836e2ac9aa19728bb35ddc71a7 2f6ab5d43d25ad075de844b33eadd072298037fc **************** 1541085134298 TIME:2018-11-1 17:12:14
+client left, count = 1
+client left, count = 0
+new client connected, count = 1 soketIdJzNrejpMbpbT390mAAAD
+new client connected, count = 2 soketId5aBQYBk8VYYfi6yLAAAE
+client left, count = 1
+client left, count = 0
+new client connected, count = 1 soketIdT2iRKdnDWHe67W7TAAAF
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541085266769 TIME:2018-11-1 17:14:26
+new client connected, count AAA= 1541085266770
+new client connected, count BBB= 3312
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541085270714 TIME:2018-11-1 17:14:30
+new client connected, count AAA= 1541085270715
+new client connected, count BBB= 529
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541085271780 TIME:2018-11-1 17:14:31
+new client connected, count AAA= 1541085271782
+new client connected, count BBB= 365
+Info - app.js --1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 **************** 1541085272702 TIME:2018-11-1 17:14:32
+new client connected, count AAA= 1541085272703
+new client connected, count BBB= 412
+client left, count = 0
+START APP
+new client connected, count = 1 soketId96fTbfydt9I3DCD1AAAA
+client left, count = 0
+new client connected, count = 1 soketIdy69MMkshomsqGl-zAAAB
+START APP
+new client connected, count = 1 soketId3L0nGGP_h6TlktzmAAAA
+client left, count = 0
+new client connected, count = 1 soketIdULU-TXiGorkJo_PqAAAB
+START APP
+new client connected, count = 1 soketIdOSGSXb7TH2nfGSb_AAAA
+START APP
+new client connected, count = 1 soketId7GEO6fFG53SmMHE_AAAA
+Error - users.js -- =====START========= TIME:2018-11-1 18:33:22
+START APP
+new client connected, count = 1 soketIdEDCwJTgBUQnofOq4AAAA
+Error - users.js -- =====ok1========= TIME:2018-11-1 18:34:19
+START APP
+new client connected, count = 1 soketIdqd0ufxv_21pNCwStAAAA
+Error - users.js -- =====ok3========= TIME:2018-11-1 18:35:10
+START APP
+new client connected, count = 1 soketIdEIAUO5ICrK11VW6IAAAA
+Error - users.js -- =====ok3========= TIME:2018-11-1 18:35:46
+START APP
+new client connected, count = 1 soketId4fptNuikmpYGKjk0AAAA
+Error - users.js -- =====ok3========= TIME:2018-11-1 18:36:03
+START APP
+new client connected, count = 1 soketId3H2wJsgrYjTqE6a8AAAA
+Error - app.js -- START undefined 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:36:57
+Error - users.js -- =====ok3========= TIME:2018-11-1 18:36:57
+START APP
+new client connected, count = 1 soketIdnc27PvdgsO2JQw-fAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:37:56
+Error - users.js -- =====ok2========= TIME:2018-11-1 18:37:56
+Error - users.js -- =======undefined TIME:2018-11-1 18:37:56
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:37:58
+Error - users.js -- =====ok2========= TIME:2018-11-1 18:37:58
+Error - users.js -- =======undefined TIME:2018-11-1 18:37:58
+START APP
+new client connected, count = 1 soketIdVkWsa1rkSEv4LUvPAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:39:43
+Error - users.js -- =====ok2========= undefined TIME:2018-11-1 18:39:43
+Error - users.js -- undefined=======undefined TIME:2018-11-1 18:39:43
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:39:43
+Error - users.js -- =====ok2========= undefined TIME:2018-11-1 18:39:43
+Error - users.js -- undefined=======undefined TIME:2018-11-1 18:39:43
+START APP
+new client connected, count = 1 soketIdRcJPcsRnhFTuZJOcAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:43:41
+START APP
+new client connected, count = 1 soketIdc8UlPmHkvfmzTV_NAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:43:53
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:43:53
+Error - users.js -- undefined=======abc TIME:2018-11-1 18:43:53
+START APP
+new client connected, count = 1 soketIdUCgnuO4505rLOnxPAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:45:08
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:45:08
+Error - users.js -- undefined=======abc TIME:2018-11-1 18:45:08
+START APP
+new client connected, count = 1 soketId3z7Z4eLxmFJPBKsoAAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:45:37
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:45:37
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:45:37
+START APP
+new client connected, count = 1 soketIdBFPtjntgbPG8blo7AAAA
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:46:25
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:46:25
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:46:25
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:46:25
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:46:25
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:46:25
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:46:40
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:46:40
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:46:40
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:46:42
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:46:42
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:46:42
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:46:42
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:46:42
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:46:42
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:47:02
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:47:02
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:47:02
+client left, count = 0
+new client connected, count = 1 soketIdFUgUnyezhn5IhR0kAAAB
+Error - app.js -- START 1b6a088f5e5b902d1e09080a82d42acbda6ee951 df06c4857bb6065aa6ff7fd5dd1c605b8939e3a4 TIME:2018-11-1 18:47:15
+Error - users.js -- =====ok2========= 1b6a088f5e5b902d1e09080a82d42acbda6ee951 TIME:2018-11-1 18:47:15
+Error - users.js -- 1b6a088f5e5b902d1e09080a82d42acbda6ee951=======abc TIME:2018-11-1 18:47:15
+client left, count = 0

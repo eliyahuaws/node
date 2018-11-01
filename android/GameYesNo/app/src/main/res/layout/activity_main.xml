@@ -28,8 +28,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="create USer"
-        android:id="@+id/createUser"
+        android:text="Start Server"
+        android:id="@+id/startServer"
 
         />
 
@@ -39,9 +39,33 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="create USer"
-        android:id="@+id/loadUser"
+        android:text="Stop Server"
+        android:id="@+id/stopServer"
 
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Server"
+        android:id="@+id/startGame"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/user"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:id="@+id/createUser"
         />
 
 </LinearLayout>

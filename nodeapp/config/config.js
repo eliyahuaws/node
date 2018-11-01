@@ -4,7 +4,7 @@ var os = require('os');
 
 function getPublicEnvironment()
 {
-	return config.test_environment_name == os.hostname();
+	return config.test_environment_name == "test";
 }
 
 

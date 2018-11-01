@@ -19,7 +19,7 @@ public class CreateUserActivity extends AppCompatActivity {
         init();
         setContentView(R.layout.activity_create_user);
 
-                View v = findViewById(R.id.createUser);
+                View v = findViewById(R.id.startServer);
         v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

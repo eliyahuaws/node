@@ -343,6 +343,43 @@ module.exports.checkIfUserExist = function(deviceId ,agreementId,callback)
 }
 
 
+module.exports.getUserByAgreementAndDevice = function(deviceId ,agreementId,callback)
+{
+
+
+	var sql = "SELECT * From users WHERE deviceId = ? AND agreementId = ?";
+
+	con.query(sql,[deviceId,agreementId], function (err, result) {
+		if (err)
+		{
+			logger.E(TAG,"=====error=========");
+			callback(false);
+		} 
+		else
+		{
+				
+			if(result!=null && result.length >0)
+			{
+				logger.E(TAG,"=====ok2========= "+result[0].deviceId);
+				var client = {};
+				client.deviceId = result[0].deviceId;
+				client.nickName = result[0].nickName;
+				logger.E(TAG,result[0].deviceId+"======="+client.nickName);
+				callback(null,client);
+			}
+			else
+			{
+					logger.E(TAG,"=====ok3=========");
+				var err = {};
+				err.message = "CANNOT FIND USER";
+				err.code = 300;
+				callback(err,null);	
+			}		
+		}
+	});
+}
+
+
 
 
 

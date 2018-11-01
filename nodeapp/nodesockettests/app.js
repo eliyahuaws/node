@@ -18,7 +18,7 @@ var port = process.env.PORT || 8080;
 
 
 var dic =  new Map();
-
+var clientsDic = new Map(); //deviceId,agreementId,lan,stage,question,answerInfo,answer,startTime,score,limitTime
 var DEVICE_NOT_FOUND = 1;//DEVICE NOT FOUND 
 
 /**
@@ -51,8 +51,9 @@ function handler (req, res) {
  */
 io.sockets.on('connect', function(socket) {
   var timer = new TimerEvents(io);
-
-  console.log('new client connected, count = ' + countConnectedClients());
+  io.to(socket.id).emit("connect-socket-Id",socket.id);
+  // io.clients[socket.id].emit("connect-socket-Id",socket.id);
+  console.log('new client connected, count = ' + countConnectedClients() + " soketId" + socket.id );
   if ( countConnectedClients() === 1 ) {
     // first client signed in - start emitting timer events
     timer.start();
@@ -67,6 +68,40 @@ io.sockets.on('connect', function(socket) {
       timer.stop();
     }
   });
+
+
+
+  socket.on('startGame',function(socketId,agreementId,deviceId){
+      logger.E(TAG,"START "+deviceId + " " + agreementId);
+      userHandler.getUserByAgreementAndDevice(deviceId,agreementId,function(err,result)
+      {
+          if(err!=null)
+          {
+              io.to(socket.id).emit("connect-socket-Id","ERROR");
+          }
+          else
+          {
+          io.to(socket.id).emit("connect-socket-Id",result.nickName);
+          }
+      });
+
+    // userHandler.checkIfUserExist(deviceId,agreementId,function(valid)
+    // {
+    //   if(valid)
+    //   {
+    //     if(dic.has(agreementId))
+    //     {
+    //       dic.delete(agreementId);
+    //     }
+
+    //   }
+    //   else
+    //   {
+
+    //   }
+    // });
+  });
+
 
   socket.on('set',function(agreementId,deviceId){
     let a = new Question(new Date().getTime());
@@ -113,6 +148,15 @@ io.sockets.on('connect', function(socket) {
 
 
 });
+
+
+
+
+// deviceId,agreementId,lan,stage,question,answerInfo,answer,startTime,score,limitTime
+function addQuestionToDic(socketId,deviceId,agreementId,lan,stage,questionDes,answerInfo,score,limitTime,numberOfWin,callback)
+{
+
+}
 
 
 
@@ -202,4 +246,20 @@ class Question{
 
 
 app.listen(port); //Listening on port 80. change it to 3000 if you have Apache on local machine
+
+
+
+
+
+
+// question{
+//   deviceId,agreementId,lan,stage,question,answerInfo,answer,startTime,score,limitTime
+
+
+// }
+
+
+
+
+
 

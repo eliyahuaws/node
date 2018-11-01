@@ -20,6 +20,7 @@ else
 		var connection = mysql.createConnection({
 		host: config.getMysqlHost(),
 		user: config.getMysqlUser(),
+		socketPath: config.getMysqlSocket(),
 		password: config.getMysqlPassword(),
 		database: config.getMysqlDatabaseName()
 	});
