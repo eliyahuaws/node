@@ -51,7 +51,6 @@ function handler (req, res) {
 io.sockets.on('connect', function(socket) {
     console.log('START APP');
 
-
   // // io.clients[socket.id].emit("connect-socket-Id",socket.id);
   // console.log('new client connected, count = ' + countConnectedClients() + " soketId" + socket.id );
   // if ( countConnectedClients() === 1 ) {
@@ -59,6 +58,7 @@ io.sockets.on('connect', function(socket) {
   //   timer.start();
   // }
 
+  
 
   socket.on('disconnect', function() {
     console.log('client left, count = ');
