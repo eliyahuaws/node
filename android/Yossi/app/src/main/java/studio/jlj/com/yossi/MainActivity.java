@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
                             gamePlayer.id = ((JSONArray) args[0]).getJSONObject(i).getString("id");
                             gamePlayer.name = ((JSONArray) args[0]).getJSONObject(i).getString("name");
                             gamePlayer.fire = ((JSONArray) args[0]).getJSONObject(i).getInt("fire");
+                            gamePlayer.color = ((JSONArray) args[0]).getJSONObject(i).getString("color");
                             gamePlayer.shild = ((JSONArray) args[0]).getJSONObject(i).getInt("shild");
                             gamePlayer.life = ((JSONArray) args[0]).getJSONObject(i).getInt("life");
                             gamePlayer.position = ((JSONArray) args[0]).getJSONObject(i).getInt("position");
@@ -110,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
                             gameScreen.id = ((JSONArray) args[0]).getJSONObject(i).getString("id");
                             gameScreen.masterId = ((JSONArray) args[0]).getJSONObject(i).getString("masterId");
                             gameScreen.name = ((JSONArray) args[0]).getJSONObject(i).getString("name");
+                            gameScreen.color = ((JSONArray) args[0]).getJSONObject(i).getString("color");
                             gameScreen.fire = ((JSONArray) args[0]).getJSONObject(i).getInt("fire");
                             gameScreen.shild = ((JSONArray) args[0]).getJSONObject(i).getInt("shild");
                             gameScreen.life = ((JSONArray) args[0]).getJSONObject(i).getInt("life");

@@ -6,6 +6,7 @@ var fs = require('fs');
 var port = process.env.PORT || 3000;
 
 var idMaster = new Map();
+var timerMaster = new Map();
 var sendToAll = false;
 function handler (req, res) {
    // console.log('SSSS');
@@ -19,6 +20,7 @@ var code4 = "CANNOT START GAME";
 var life = 5;
 var fire = 5;
 var shild = 5;
+
 
 
 io.sockets.on('connect', function(socket) {
@@ -55,12 +57,31 @@ io.sockets.on('connect', function(socket) {
  		{
      		var a = idMaster.get(mastertId);
      		startGame(mastertId,a);
+     		startTimerGame(masterId);
  		}
  		else
  		{
  			    io.to(mastertId).emit("command",code4);
  		}
   });
+
+
+
+  socket.on('playSound',function(mastertId){
+  	   console.log('START startGame');
+ 		if(idMaster.has(mastertId))
+ 		{
+     		var a = idMaster.get(mastertId);
+     		playSound(mastertId,a);
+ 		}
+ 		else
+ 		{
+ 			    io.to(mastertId).emit("command",code4);
+ 		}
+  });
+
+
+
 
   socket.on('connectToMaster',function(socketIdMaster,socketIdPlayer,playerName){
     console.log('MASTER ID:'+socketIdMaster);
@@ -96,6 +117,11 @@ io.sockets.on('connect', function(socket) {
   });
 });
 
+function startTimerGame(masterId)
+{
+	
+}
+
 
 function sendMassage(arr,masterId,code)
 {
@@ -126,6 +152,15 @@ function startGame(masterId,arr)
   			player.life = life;
   			player.shild = shild;
   			player.position = i;
+  			switch(i)
+  			{
+				case 0:player.color = "#ff0000";break;
+				case 1:player.color = "#ffff00";break;
+				case 2:player.color = "#000000";break;
+				case 3:player.color = "#ff00ff";break;
+				case 4:player.color = "#ffffff";break;
+				case 5:player.color = "#bbcc00";break;
+  			}
   			a.push(player);
   }
 
@@ -133,6 +168,39 @@ function startGame(masterId,arr)
           io.to(arr[i].id).emit("startGame",a);
   }
 }
+
+
+function playSound(masterId,arr)
+{
+	var a=[];
+
+  for (var i = 0; i < arr.length; i++) {
+  			var player = {};
+  			player.masterId = masterId;
+  			player.id = arr[i].id;
+  			player.name = arr[i].name;
+  			player.fire = fire;
+  			player.life = life;
+  			player.shild = shild;
+  			player.position = i;
+  			player.color = "#ff0000";
+  		// 	switch(i)
+  		// 	{
+				// case 0:player.color = "#ff0000";break;
+				// case 1:player.color = "#ffff00";break;
+				// case 2:player.color = "#000000";break;
+				// case 3:player.color = "#ff00ff";break;
+				// case 4:player.color = "#ffffff";break;
+				// case 5:player.color = "#bbcc00";break;
+  		// 	}
+  			a.push(player);
+  }
+
+  for (var i = 0; i < arr.length; i++) {
+          io.to(arr[i].id).emit("startGame",a);
+  }
+}
+
 
 
 app.listen(3000); //Listening on port 80. change it to 3000 if you have Apache on local machine
