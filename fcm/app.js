@@ -4,9 +4,9 @@ var app = express();
 
 
      console.log("push send 1.2");
-    var serverKey = 'AAAAO337OBw:APA91bH_TA1I_P0vh3YAlkCQPc_cUcWYC-e9mq6LnH7U1jP4Z8pS3_dtd8kwt8qYa8nYKJiP5kcjGqhz2v2RGxI8POHNoh0y7hOftGV6bA-ipAuG6AME87erFQeFKtdi3D68Wev6Q6OT'; 
-      console.log("push send 1.3");//put your server key here
-    var fcm = new FCM(serverKey);
+    // var serverKey = 'AAAAO337OBw:APA91bH_TA1I_P0vh3YAlkCQPc_cUcWYC-e9mq6LnH7U1jP4Z8pS3_dtd8kwt8qYa8nYKJiP5kcjGqhz2v2RGxI8POHNoh0y7hOftGV6bA-ipAuG6AME87erFQeFKtdi3D68Wev6Q6OT'; 
+    //   console.log("push send 1.3");//put your server key here
+    // var fcm = new FCM(serverKey);
 
 
 
