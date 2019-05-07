@@ -3,7 +3,10 @@ var app = express();
   var FCM = require('fcm-node');
 
 
-
+     console.log("push send 1.2");
+    var serverKey = 'AIzaSyDxwijC7tI9nUyo7j4ViVfx9SVJyiVg9U8'; 
+      console.log("push send 1.3");//put your server key here
+    var fcm = new FCM(serverKey);
 
 
 
@@ -12,10 +15,7 @@ app.get('/lior',function(request,response)
 console.log("push send 1");
 
   
-     console.log("push send 1.2");
-    var serverKey = 'AIzaSyDxwijC7tI9nUyo7j4ViVfx9SVJyiVg9U8'; 
-      console.log("push send 1.3");//put your server key here
-    var fcm = new FCM(serverKey);
+
       console.log("push send 1.4");
  console.log("push send 2");
     var message = { //this may vary according to the message type (single recipient, multicast, topic, et cetera)
