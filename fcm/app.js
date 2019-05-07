@@ -1,14 +1,13 @@
 var express = require('express');
 var app = express();
-  var FCM = require('fcm-node');
+  // var FCM = require('fcm-node');
 
 
  
 
 
 
-app.get('/lior',function(request,response)
-{
+app.get('/lior',function(request,response){
 console.log("push send 1");
 
       console.log("push send 1.2");
