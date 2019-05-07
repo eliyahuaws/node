@@ -37,7 +37,7 @@ console.log("push send start");
             console.log("Successfully sent with response: ", response);
         }
     });
-	// response.send("sdfsdf");
+	 response.send("sdfsdf");
 });
 
 
