@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Basic User Information</title>
+  <style>
+    input.small {
+      line-height: 0.7;
+    }
+
+    input.big {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <form action="http://localhost:8080/questioninsert" method="GET">
+    question_hebrew: <input class="big" type="text" name="question_hebrew" size="150"> <br><br>
+
+    answer_description_hebrew: <input class="big"  type="text" name="answer_description_hebrew" size="150"> <br><br>
+    question_english: <input class="big"  type="text" name="question_english" size="150"> <br><br>
+
+    answer_description_english: <input class="big"  type="text" name="answer_description_english" size="150"> <br><br>
+    type: <select name="typeId">
+    <option value="1">sport</option>
+    <option value="2">math</option>
+  </select> 
+
+  right_wrong: <select name="right_wrong">
+  <option value="0">wrong</option>
+  <option value="1">right</option>
+</select> 
+
+difficulty: <select name="difficulty">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select> 
+
+
+
+</select> 
+
+questionStage: <select name="question_stage">
+<option value="1">child</option>
+<option value="2">adult</option>
+<option value="3">wisdom</option>
+</select> 
+
+
+<input type="submit" value="submit">        
+</form>
+</body>
+</html>
