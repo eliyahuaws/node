@@ -17,7 +17,7 @@ console.log("push send start");
  
     var message = { //this may vary according to the message type (single recipient, multicast, topic, et cetera)
         to: 'reEwmzGNabN8:APA91bEbh4hizDvyu9GigIPmB3mXhihKiYV6BO0e7Ba3S1Uh0U_MbEMbAFom-Vfh59HGwazbs5cbNht8MkU-P1OOQejmFV-JmvFVSA-_kkkRyuMv8KAZIdsIRjnKc1mU2jESqwVI_MtJ', 
-        collapse_key: 'your_collapse_key',
+  
         
         notification: {
             title: 'Title of your push notification', 
