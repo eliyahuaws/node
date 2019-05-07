@@ -4,7 +4,7 @@ var app = express();
 app.get('/lior',function(request,response)
 {
 console.log("app listen to port 3000");
-	response.send("sdfsdf");
+	// response.send("sdfsdf");
 });
 
 
