@@ -1,0 +1,156 @@
+/* QR Code demo styles */
+
+#ShoppingCart {
+	position: absolute;
+
+}
+
+#payButton {
+	top: 1055px;
+	left: 20px;
+	position: absolute;
+}
+
+/* all popup dialogs - centered with shadow */
+.popup {
+	top: 100px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, 0);
+	margin-right: -50%;
+	border:1px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#payPopup1 {
+	display: none;
+}
+
+/* QR code is centered horizontally */
+#payQR {
+	position: absolute;
+	top: 270px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+	width: 260px;
+}
+
+#QRSpinner {
+	position: absolute;
+	top: 268px;
+	width: 260px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+}
+
+#phonePrefix {
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	top: 645px;
+	left: 225px;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: grey;
+}
+
+#phoneNumber {
+	position: absolute;
+	width: 120px;
+	height: 30px;
+	top: 645px;
+	left: 310px;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	color: grey;
+}
+
+::placeholder {
+	color: #D9D9D9;
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+#sendPhoneNumber {
+	width:0;
+	height:0;
+	padding: 49px 0 0 93px;/* image width (160px) and height (61px) */
+	background-image: url("../images/sendPhone-enabled.png");
+	position: absolute;
+	top: 636px;
+	left: 100px;
+	border: none;
+	outline: none;
+}	
+
+#sendPhoneNumber:disabled {
+	background-image: url("../images/sendPhone-disabled.png");
+}	
+
+#timeCounter {
+	position: absolute;
+	top: 561px;
+	left: 263px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #B4B4B4;
+}
+
+#payPopup2 {
+	display: none;
+}
+
+#waitingSpinner {
+	position: absolute;
+    top: 204px;
+    width: 175px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+}
+
+#payPopup3 {
+	display: none;
+}
+
+
+#successCheck {
+	position: absolute;
+    top: 165px;
+    left: 50%;
+    width: 290px;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+
+}
+
+#payPopup4 {
+	display: none;
+}
+
+#declined {
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	width: 400px;
+	margin-right: -50%;
+	transform: translate(-50%, 0);
+
+}
+
+#dismissButton {
+	position: absolute;
+	top: 640px;
+	left: 55px;
+
+}

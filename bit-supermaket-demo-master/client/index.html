@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ביט - תשלומים לעסקים</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="javascripts/bitPayments.js"></script>
+  <script src="javascripts/qrcode.js"></script>
+  <div id="ShoppingCart">
+    <img id="imgShoppingCart" src="images/productScreen.png" alt="Amazon Shopping Cart" usemap="#imgShoppingCart-map">
+    <map name="imgShoppingCart-map">
+      <area alt="paying screen" id="goPayButton" coords="1350,560,1650,600" shape="rect">
+      <area alt="pay with Bit" id="payButton" coords="1200,160,1500,200" shape="rect">
+    </map>
+
+    <div class="popup" id="payPopup1"><img src="images/popup1-request.png" alt="Request Payment">
+      <div id="payQR"></div>
+      <img id="QRSpinner" src="images/waiting.gif" alt="Waiting for QR">
+      <div id="timeCounter">60</div>
+      <input id="phonePrefix" type="text" placeholder="052" maxlength="3">
+      <input id="phoneNumber" type="text" placeholder="1234567" maxlength="7">
+      <input type="image" id="sendPhoneNumber" src="images/sendPhone-enabled.png" disabled />
+    </div>
+
+    <div class="popup" id="payPopup2"><img src="images/popup2-waiting.png" alt="Waiting for approval"><img id="waitingSpinner"
+        src="images/waiting.gif" alt="Waiting for approval">
+    </div>
+
+    <div class="popup" id="payPopup3">
+      <img src="images/popup3-success.png" alt="Payment Successful" usemap="#popup3-success-map">
+      <map name="popup3-success-map">
+        <area id="dismissButton" coords="257,581,452,624" shape="rect">
+      </map>
+      <img id="successCheck" src="images/successCheck-noLoop.gif" alt="payment successful">
+    </div>
+
+    <div class="popup" id="payPopup4">
+      <img src="images/popup4-declined.png" alt="Payment Declined" usemap="#popup4-declined-map">
+      <map name="popup4-declined-map">
+        <area id="dismissButton2" coords="12,16,40,44" shape="rect">
+      </map>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
